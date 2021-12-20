@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Support form</description>
+   <name>Tc-1(Support)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e83722ee-1a03-48a9-99f9-4e5cf7362fe9</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,36 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Microsite olay,Chrome 95.0.4638.69,,,2021-12-16 10:53:40,2021-12-16 10:54:45,1m - 4.668s,ERROR
+,,,,,,,
+Test Cases/microsite staging/Login/Tc-1,Chrome 95.0.4638.69,Login with emailid and password,,2021-12-16 10:53:41,2021-12-16 10:53:59,18.014s,PASSED
+"callTestCase(findTestCase(""microsite staging/Open browser/Tc2-Login""), [:], STOP_ON_FAILURE)",Chrome 95.0.4638.69,,,2021-12-16 10:53:41,2021-12-16 10:53:57,16.677s,PASSED
+"sendKeys(findTestObject(""Object Repository/micro staging/Page_Olay Holiday Program/input_WELCOME_mat-input-2""), Emailid)",Chrome 95.0.4638.69,,,2021-12-16 10:53:57,2021-12-16 10:53:58,0.600s,PASSED
+"sendKeys(findTestObject(""Object Repository/micro staging/Page_Olay Holiday Program/input__mat-input-3""), Pswd)",Chrome 95.0.4638.69,,,2021-12-16 10:53:58,2021-12-16 10:53:58,0.294s,PASSED
+"click(findTestObject(""Object Repository/micro staging/Page_Olay Holiday Program/button_SUBMIT (7)""))",Chrome 95.0.4638.69,,,2021-12-16 10:53:58,2021-12-16 10:53:59,0.276s,PASSED
+,,,,,,,
+Test Cases/microsite staging/Reset password/Tc-1,Chrome 95.0.4638.69,Reset password,,2021-12-16 10:53:59,2021-12-16 10:54:15,16.887s,PASSED
+"callTestCase(findTestCase(""microsite staging/Open browser/Tc2-Login""), [:], STOP_ON_FAILURE)",Chrome 95.0.4638.69,,,2021-12-16 10:53:59,2021-12-16 10:54:13,14.399s,PASSED
+"click(findTestObject(""Object Repository/micro staging/Page_Olay Holiday Program/a_Already registered but forgot your passwo_7296b8""))",Chrome 95.0.4638.69,,,2021-12-16 10:54:13,2021-12-16 10:54:14,0.596s,PASSED
+"click(findTestObject(""Object Repository/micro staging/Page_Olay Holiday Program/input_Forgot Password_mat-input-4""))",Chrome 95.0.4638.69,,,2021-12-16 10:54:14,2021-12-16 10:54:14,0.773s,PASSED
+"setText(findTestObject(""Object Repository/micro staging/Page_Olay Holiday Program/input_Forgot Password_mat-input-4""), ""akki2323@yopmail.com"")",Chrome 95.0.4638.69,,,2021-12-16 10:54:14,2021-12-16 10:54:15,0.708s,PASSED
+"click(findTestObject(""Object Repository/micro staging/Page_Olay Holiday Program/button_SUBMIT (8)""))",Chrome 95.0.4638.69,,,2021-12-16 10:54:15,2021-12-16 10:54:15,0.279s,PASSED
+,,,,,,,
+Test Cases/microsite staging/Upload Receipt/Tc-1,Chrome 95.0.4638.69,,,2021-12-16 10:54:15,2021-12-16 10:54:45,29.345s,PASSED
+"openBrowser("""")",Chrome 95.0.4638.69,,,2021-12-16 10:54:16,2021-12-16 10:54:16,0.428s,PASSED
+"navigateToUrl(""https://holidayolay.3tlstaging.com/login"")",Chrome 95.0.4638.69,,,2021-12-16 10:54:16,2021-12-16 10:54:35,19.285s,PASSED
+maximizeWindow(),Chrome 95.0.4638.69,,,2021-12-16 10:54:35,2021-12-16 10:54:36,0.212s,PASSED
+"setText(findTestObject(""Object Repository/micro staging/Page_Olay Holiday Program/input_Please Enter you Credentials_mat-input-0""), ""pg_olayholiday"")",Chrome 95.0.4638.69,,,2021-12-16 10:54:36,2021-12-16 10:54:36,0.549s,PASSED
+"setText(findTestObject(""Object Repository/micro staging/Page_Olay Holiday Program/input_Username_mat-input-1""), ""1q2w3e4r!@#"")",Chrome 95.0.4638.69,,,2021-12-16 10:54:36,2021-12-16 10:54:37,0.522s,PASSED
+"click(findTestObject(""Object Repository/micro staging/Page_Olay Holiday Program/span_Submit""))",Chrome 95.0.4638.69,,,2021-12-16 10:54:37,2021-12-16 10:54:37,0.282s,PASSED
+"click(findTestObject(""Object Repository/micro staging/Page_Olay Holiday Program/div_Email""))",Chrome 95.0.4638.69,,,2021-12-16 10:54:37,2021-12-16 10:54:42,4.971s,PASSED
+"setText(findTestObject(""Object Repository/micro staging/Page_Olay Holiday Program/input_WELCOME_mat-input-2""), Emailid)",Chrome 95.0.4638.69,,,2021-12-16 10:54:42,2021-12-16 10:54:42,0.537s,PASSED
+"setText(findTestObject(""Object Repository/micro staging/Page_Olay Holiday Program/input__mat-input-3""), Pswd)",Chrome 95.0.4638.69,,,2021-12-16 10:54:42,2021-12-16 10:54:43,0.525s,PASSED
+"click(findTestObject(""Object Repository/micro staging/Page_Olay Holiday Program/button_SUBMIT (2)""))",Chrome 95.0.4638.69,,,2021-12-16 10:54:43,2021-12-16 10:54:43,0.281s,PASSED
+"click(findTestObject(""Object Repository/micro staging/Page_Olay Holiday Program/ngx-dropzone-label_Click here to upload rec_7b6b3a""))",Chrome 95.0.4638.69,,,2021-12-16 10:54:43,2021-12-16 10:54:44,1.266s,PASSED
+"click(findTestObject(""Object Repository/micro staging/Page_Olay Holiday Program/button_SUBMIT_1""))",Chrome 95.0.4638.69,,,2021-12-16 10:54:44,2021-12-16 10:54:45,0.293s,PASSED
+closeBrowser(),Chrome 95.0.4638.69,,,2021-12-16 10:54:45,2021-12-16 10:54:45,0.075s,PASSED
+,,,,,,,
+Test Cases/microsite staging/Support/Tc-1,Chrome 95.0.4638.69,Support form,,2021-12-16 10:54:45,2021-12-16 10:54:45,0.009s,ERROR
+"callTestCase(findTestCase(""null""), [:], STOP_ON_FAILURE)",Chrome 95.0.4638.69,,,2021-12-16 10:54:45,2021-12-16 10:54:45,0.002s,ERROR
+,,,,,,,
+Test Cases/microsite staging/FAQ/Tc-1,Chrome 95.0.4638.69,,,2021-12-16 10:54:45,2021-12-16 10:54:45,0.008s,ERROR
+"callTestCase(findTestCase(""null""), [:], STOP_ON_FAILURE)",Chrome 95.0.4638.69,,,2021-12-16 10:54:45,2021-12-16 10:54:45,0.003s,ERROR

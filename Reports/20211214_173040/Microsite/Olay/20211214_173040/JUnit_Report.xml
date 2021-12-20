@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Olay" time="141.962" tests="5" failures="1" errors="1">
+   <testsuite name="Olay" tests="5" failures="1" errors="1" time="141.962" skipped="0" timestamp="2021-12-14 17:30:50" hostname="knoldus - knoldus-Latitude-3520" id="Test Suites/Microsite/Olay">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/knoldus/Katalon Studio/Learn1/Reports/20211214_173040/Microsite/Olay/20211214_173040"/>
+         <property name="logFiles" value="/home/knoldus/Katalon Studio/Learn1/Reports/20211214_173040/Microsite/Olay/20211214_173040/execution0.log"/>
+         <property name="attachments" value="/home/knoldus/Katalon Studio/Learn1/Reports/20211214_173040/Microsite/Olay/20211214_173040/1639483379484.png, /home/knoldus/Katalon Studio/Learn1/Reports/20211214_173040/Microsite/Olay/20211214_173040/1639483392097.png"/>
+         <property name="hostName" value="knoldus - knoldus-Latitude-3520"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="8.2.0.208"/>
+         <property name="browser" value="Chrome 95.0.4638.69"/>
+         <property name="hostAddress" value="127.0.1.1"/>
+         <property name="sessionId" value="5972903d4951bb8446e7df55095c6f07"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/microsites/Tc1-Login" time="23.76" classname="Test Cases/microsites/Tc1-Login" status="PASSED">
+         <system-out><![CDATA[2021-12-14 17:30:50 - [TEST_CASE][PASSED] - Test Cases/microsites/Tc1-Login: Test Cases/microsites/Tc1-Login
+
+2021-12-14 17:30:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-12-14 17:30:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-12-14 17:30:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-12-14 17:30:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-12-14 17:30:51 - [TEST_STEP][PASSED] - navigateToUrl(Url): Navigate to 'https://olaygift.com/login' successfully
+
+2021-12-14 17:31:12 - [MESSAGE][PASSED] - Navigate to 'https://olaygift.com/login' successfully
+
+2021-12-14 17:31:12 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-12-14 17:31:12 - [MESSAGE][PASSED] - Current window maximized
+
+2021-12-14 17:31:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Microsite Prod/Page_Olay Holiday Program/input_WELCOME_mat-input-0"), Username): Text 'Testing123@yopmail.com' is set on object 'Object Repository/Microsite Prod/Page_Olay Holiday Program/input_WELCOME_mat-input-0'
+
+2021-12-14 17:31:12 - [MESSAGE][PASSED] - Text 'Testing123@yopmail.com' is set on object 'Object Repository/Microsite Prod/Page_Olay Holiday Program/input_WELCOME_mat-input-0'
+
+2021-12-14 17:31:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Microsite Prod/Page_Olay Holiday Program/input__mat-input-1"), Password): Text 'Test@123' is set on object 'Object Repository/Microsite Prod/Page_Olay Holiday Program/input__mat-input-1'
+
+2021-12-14 17:31:13 - [MESSAGE][PASSED] - Text 'Test@123' is set on object 'Object Repository/Microsite Prod/Page_Olay Holiday Program/input__mat-input-1'
+
+2021-12-14 17:31:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Microsite Prod/Page_Olay Holiday Program/button_SUBMIT")): Object: 'Object Repository/Microsite Prod/Page_Olay Holiday Program/button_SUBMIT' is clicked on
+
+2021-12-14 17:31:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Microsite Prod/Page_Olay Holiday Program/button_SUBMIT' is clicked on
+
+2021-12-14 17:31:14 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-12-14 17:31:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/microsites/Tc2-Reset password" time="13.531" classname="Test Cases/microsites/Tc2-Reset password" status="PASSED">
+         <system-out><![CDATA[2021-12-14 17:31:14 - [TEST_CASE][PASSED] - Test Cases/microsites/Tc2-Reset password: Test Cases/microsites/Tc2-Reset password
+
+2021-12-14 17:31:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-12-14 17:31:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-12-14 17:31:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-12-14 17:31:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-12-14 17:31:14 - [TEST_STEP][PASSED] - navigateToUrl(Url): Navigate to 'https://olaygift.com/login' successfully
+
+2021-12-14 17:31:25 - [MESSAGE][PASSED] - Navigate to 'https://olaygift.com/login' successfully
+
+2021-12-14 17:31:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Microsite Prod/Page_Olay Holiday Program/a_Already registered but forgot your passwo_7296b8")): Object: 'Object Repository/Microsite Prod/Page_Olay Holiday Program/a_Already registered but forgot your passwo_7296b8' is clicked on
+
+2021-12-14 17:31:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Microsite Prod/Page_Olay Holiday Program/a_Already registered but forgot your passwo_7296b8' is clicked on
+
+2021-12-14 17:31:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Microsite Prod/Page_Olay Holiday Program/input_Forgot Password_mat-input-2"), Username): Text 'Testing123@yopmail.com' is set on object 'Object Repository/Microsite Prod/Page_Olay Holiday Program/input_Forgot Password_mat-input-2'
+
+2021-12-14 17:31:27 - [MESSAGE][PASSED] - Text 'Testing123@yopmail.com' is set on object 'Object Repository/Microsite Prod/Page_Olay Holiday Program/input_Forgot Password_mat-input-2'
+
+2021-12-14 17:31:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Microsite Prod/Page_Olay Holiday Program/button_SUBMIT")): Object: 'Object Repository/Microsite Prod/Page_Olay Holiday Program/button_SUBMIT' is clicked on
+
+2021-12-14 17:31:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Microsite Prod/Page_Olay Holiday Program/button_SUBMIT' is clicked on
+
+2021-12-14 17:31:27 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-12-14 17:31:27 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/microsites/Tc4- upload receipt" time="14.169" classname="Test Cases/microsites/Tc4- upload receipt" status="PASSED">
+         <system-out><![CDATA[2021-12-14 17:31:27 - [TEST_CASE][PASSED] - Test Cases/microsites/Tc4- upload receipt: Test Cases/microsites/Tc4- upload receipt
+
+2021-12-14 17:31:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-12-14 17:31:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-12-14 17:31:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-12-14 17:31:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-12-14 17:31:28 - [TEST_STEP][PASSED] - navigateToUrl(Url): Navigate to 'https://olaygift.com/login' successfully
+
+2021-12-14 17:31:38 - [MESSAGE][PASSED] - Navigate to 'https://olaygift.com/login' successfully
+
+2021-12-14 17:31:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Microsite Prod/Page_Olay Holiday Program/div_Email")): Object: 'Object Repository/Microsite Prod/Page_Olay Holiday Program/div_Email' is clicked on
+
+2021-12-14 17:31:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Microsite Prod/Page_Olay Holiday Program/div_Email' is clicked on
+
+2021-12-14 17:31:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Microsite Prod/Page_Olay Holiday Program/input_WELCOME_mat-input-0"), Username): Text 'Testing123@yopmail.com' is set on object 'Object Repository/Microsite Prod/Page_Olay Holiday Program/input_WELCOME_mat-input-0'
+
+2021-12-14 17:31:39 - [MESSAGE][PASSED] - Text 'Testing123@yopmail.com' is set on object 'Object Repository/Microsite Prod/Page_Olay Holiday Program/input_WELCOME_mat-input-0'
+
+2021-12-14 17:31:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Microsite Prod/Page_Olay Holiday Program/input__mat-input-1"), Password): Text 'Test@123' is set on object 'Object Repository/Microsite Prod/Page_Olay Holiday Program/input__mat-input-1'
+
+2021-12-14 17:31:39 - [MESSAGE][PASSED] - Text 'Test@123' is set on object 'Object Repository/Microsite Prod/Page_Olay Holiday Program/input__mat-input-1'
+
+2021-12-14 17:31:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Microsite Prod/Page_Olay Holiday Program/button_SUBMIT")): Object: 'Object Repository/Microsite Prod/Page_Olay Holiday Program/button_SUBMIT' is clicked on
+
+2021-12-14 17:31:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Microsite Prod/Page_Olay Holiday Program/button_SUBMIT' is clicked on
+
+2021-12-14 17:31:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Microsite Prod/Page_Olay Holiday Program/ngx-dropzone-label_Click here to upload rec_7b6b3a")): Object: 'Object Repository/Microsite Prod/Page_Olay Holiday Program/ngx-dropzone-label_Click here to upload rec_7b6b3a' is clicked on
+
+2021-12-14 17:31:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Microsite Prod/Page_Olay Holiday Program/ngx-dropzone-label_Click here to upload rec_7b6b3a' is clicked on
+
+2021-12-14 17:31:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Microsite Prod/Page_Olay Holiday Program/span_SUBMIT")): Object: 'Object Repository/Microsite Prod/Page_Olay Holiday Program/span_SUBMIT' is clicked on
+
+2021-12-14 17:31:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Microsite Prod/Page_Olay Holiday Program/span_SUBMIT' is clicked on
+
+2021-12-14 17:31:41 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-12-14 17:31:41 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/microsites/Tc5-FAQ" time="14.258" classname="Test Cases/microsites/Tc5-FAQ" status="ERROR">
+         <error type="ERROR" message="Test Cases/microsites/Tc5-FAQ FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.testobject.ObjectRepository.findTestObject() is applicable for argument types: (java.lang.String, java.lang.Integer) values: [Object Repository/Microsite Prod/Page_Olay Holiday Program/mat-panel-title_How long do I have to submi_b881c2, ...]
+Possible solutions: findTestObject(java.lang.String), findTestObject(java.lang.String, java.util.Map), findRequestObject(java.lang.String, java.io.File)
+	at Tc5-FAQ.run(Tc5-FAQ:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1639483240290.run(TempTestSuite1639483240290.groovy:36)
+"/>
+         <system-out><![CDATA[2021-12-14 17:32:28 - [TEST_CASE][ERROR] - Test Cases/microsites/Tc5-FAQ: Test Cases/microsites/Tc5-FAQ FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.testobject.ObjectRepository.findTestObject() is applicable for argument types: (java.lang.String, java.lang.Integer) values: [Object Repository/Microsite Prod/Page_Olay Holiday Program/mat-panel-title_How long do I have to submi_b881c2, ...]
+Possible solutions: findTestObject(java.lang.String), findTestObject(java.lang.String, java.util.Map), findRequestObject(java.lang.String, java.io.File)
+	at Tc5-FAQ.run(Tc5-FAQ:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1639483240290.run(TempTestSuite1639483240290.groovy:36)
+
+
+2021-12-14 17:32:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-12-14 17:32:28 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-12-14 17:32:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-12-14 17:32:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-12-14 17:32:28 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-12-14 17:32:28 - [TEST_STEP][PASSED] - navigateToUrl(Url): Navigate to 'https://olaygift.com/login' successfully
+
+2021-12-14 17:32:38 - [MESSAGE][PASSED] - Navigate to 'https://olaygift.com/login' successfully
+
+2021-12-14 17:32:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Microsite Prod/Page_Olay Holiday Program/input_WELCOME_mat-input-0"), Username): Text 'Testing123@yopmail.com' is set on object 'Object Repository/Microsite Prod/Page_Olay Holiday Program/input_WELCOME_mat-input-0'
+
+2021-12-14 17:32:39 - [MESSAGE][PASSED] - Text 'Testing123@yopmail.com' is set on object 'Object Repository/Microsite Prod/Page_Olay Holiday Program/input_WELCOME_mat-input-0'
+
+2021-12-14 17:32:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Microsite Prod/Page_Olay Holiday Program/input__mat-input-1"), Password): Text 'Test@123' is set on object 'Object Repository/Microsite Prod/Page_Olay Holiday Program/input__mat-input-1'
+
+2021-12-14 17:32:39 - [MESSAGE][PASSED] - Text 'Test@123' is set on object 'Object Repository/Microsite Prod/Page_Olay Holiday Program/input__mat-input-1'
+
+2021-12-14 17:32:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Microsite Prod/Page_Olay Holiday Program/button_SUBMIT")): Object: 'Object Repository/Microsite Prod/Page_Olay Holiday Program/button_SUBMIT' is clicked on
+
+2021-12-14 17:32:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Microsite Prod/Page_Olay Holiday Program/button_SUBMIT' is clicked on
+
+2021-12-14 17:32:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Microsite Prod/Page_Olay Holiday Program/span_SUPPORT_hamburger-box")): Object: 'Object Repository/Microsite Prod/Page_Olay Holiday Program/span_SUPPORT_hamburger-box' is clicked on
+
+2021-12-14 17:32:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Microsite Prod/Page_Olay Holiday Program/span_SUPPORT_hamburger-box' is clicked on
+
+2021-12-14 17:32:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Microsite Prod/Page_Olay Holiday Program/button_Faq")): Object: 'Object Repository/Microsite Prod/Page_Olay Holiday Program/button_Faq' is clicked on
+
+2021-12-14 17:32:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Microsite Prod/Page_Olay Holiday Program/button_Faq' is clicked on
+
+2021-12-14 17:32:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Microsite Prod/Page_Olay Holiday Program/mat-panel-title_How long do I have to submi_b881c2")): Object: 'Object Repository/Microsite Prod/Page_Olay Holiday Program/mat-panel-title_How long do I have to submi_b881c2' is clicked on
+
+2021-12-14 17:32:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Microsite Prod/Page_Olay Holiday Program/mat-panel-title_How long do I have to submi_b881c2' is clicked on
+
+2021-12-14 17:32:42 - [TEST_STEP][ERROR] - click(findTestObject("Object Repository/Microsite Prod/Page_Olay Holiday Program/mat-panel-title_How long do I have to submi_b881c2", 20)): Test Cases/microsites/Tc5-FAQ FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.testobject.ObjectRepository.findTestObject() is applicable for argument types: (java.lang.String, java.lang.Integer) values: [Object Repository/Microsite Prod/Page_Olay Holiday Program/mat-panel-title_How long do I have to submi_b881c2, ...]
+Possible solutions: findTestObject(java.lang.String), findTestObject(java.lang.String, java.util.Map), findRequestObject(java.lang.String, java.io.File)
+	at Tc5-FAQ.run(Tc5-FAQ:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1639483240290.run(TempTestSuite1639483240290.groovy:36)
+
+
+2021-12-14 17:32:42 - [MESSAGE][ERROR] - Test Cases/microsites/Tc5-FAQ FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.testobject.ObjectRepository.findTestObject() is applicable for argument types: (java.lang.String, java.lang.Integer) values: [Object Repository/Microsite Prod/Page_Olay Holiday Program/mat-panel-title_How long do I have to submi_b881c2, ...]
+Possible solutions: findTestObject(java.lang.String), findTestObject(java.lang.String, java.util.Map), findRequestObject(java.lang.String, java.io.File)
+	at Tc5-FAQ.run(Tc5-FAQ:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1639483240290.run(TempTestSuite1639483240290.groovy:36)]]></system-out>
+         <system-err><![CDATA[2021-12-14 17:32:28 - [TEST_CASE][ERROR] - Test Cases/microsites/Tc5-FAQ: Test Cases/microsites/Tc5-FAQ FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.testobject.ObjectRepository.findTestObject() is applicable for argument types: (java.lang.String, java.lang.Integer) values: [Object Repository/Microsite Prod/Page_Olay Holiday Program/mat-panel-title_How long do I have to submi_b881c2, ...]
+Possible solutions: findTestObject(java.lang.String), findTestObject(java.lang.String, java.util.Map), findRequestObject(java.lang.String, java.io.File)
+	at Tc5-FAQ.run(Tc5-FAQ:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1639483240290.run(TempTestSuite1639483240290.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/microsites/Tc6-Support" time="12.595" classname="Test Cases/microsites/Tc6-Support" status="FAILED">
+         <failure type="FAILED" message="Test Cases/microsites/Tc6-Support FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Microsite Prod/Page_Olay Holiday Program/button_SUPPORT'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Tc6-Support.run(Tc6-Support:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1639483240290.run(TempTestSuite1639483240290.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=95.0.4638.69)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'knoldus-Latitude-3520', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-41-generic', java.version: '1.8.0_292'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.69, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: /tmp/.com.google.Chrome.u8auZx}, goog:chromeOptions: {debuggerAddress: localhost:34297}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5972903d4951bb8446e7df55095c6f07
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+"/>
+         <system-out><![CDATA[2021-12-14 17:32:59 - [TEST_CASE][FAILED] - Test Cases/microsites/Tc6-Support: Test Cases/microsites/Tc6-Support FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Microsite Prod/Page_Olay Holiday Program/button_SUPPORT'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Tc6-Support.run(Tc6-Support:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1639483240290.run(TempTestSuite1639483240290.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=95.0.4638.69)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'knoldus-Latitude-3520', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-41-generic', java.version: '1.8.0_292'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.69, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: /tmp/.com.google.Chrome.u8auZx}, goog:chromeOptions: {debuggerAddress: localhost:34297}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5972903d4951bb8446e7df55095c6f07
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+
+
+2021-12-14 17:32:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-12-14 17:32:59 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-12-14 17:32:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-12-14 17:32:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-12-14 17:32:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-12-14 17:32:59 - [TEST_STEP][PASSED] - navigateToUrl(Url): Navigate to 'https://olaygift.com/login' successfully
+
+2021-12-14 17:33:09 - [MESSAGE][PASSED] - Navigate to 'https://olaygift.com/login' successfully
+
+2021-12-14 17:33:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Microsite Prod/Page_Olay Holiday Program/input_WELCOME_mat-input-0"), Username): Text 'Testing123@yopmail.com' is set on object 'Object Repository/Microsite Prod/Page_Olay Holiday Program/input_WELCOME_mat-input-0'
+
+2021-12-14 17:33:10 - [MESSAGE][PASSED] - Text 'Testing123@yopmail.com' is set on object 'Object Repository/Microsite Prod/Page_Olay Holiday Program/input_WELCOME_mat-input-0'
+
+2021-12-14 17:33:10 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Microsite Prod/Page_Olay Holiday Program/input__mat-input-1"), Password): Text 'Test@123' is set on object 'Object Repository/Microsite Prod/Page_Olay Holiday Program/input__mat-input-1'
+
+2021-12-14 17:33:10 - [MESSAGE][PASSED] - Text 'Test@123' is set on object 'Object Repository/Microsite Prod/Page_Olay Holiday Program/input__mat-input-1'
+
+2021-12-14 17:33:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Microsite Prod/Page_Olay Holiday Program/button_SUBMIT")): Object: 'Object Repository/Microsite Prod/Page_Olay Holiday Program/button_SUBMIT' is clicked on
+
+2021-12-14 17:33:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Microsite Prod/Page_Olay Holiday Program/button_SUBMIT' is clicked on
+
+2021-12-14 17:33:10 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/Microsite Prod/Page_Olay Holiday Program/button_SUPPORT")): Unable to click on object 'Object Repository/Microsite Prod/Page_Olay Holiday Program/button_SUPPORT' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Microsite Prod/Page_Olay Holiday Program/button_SUPPORT'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Tc6-Support.run(Tc6-Support:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1639483240290.run(TempTestSuite1639483240290.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=95.0.4638.69)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'knoldus-Latitude-3520', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-41-generic', java.version: '1.8.0_292'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.69, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: /tmp/.com.google.Chrome.u8auZx}, goog:chromeOptions: {debuggerAddress: localhost:34297}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5972903d4951bb8446e7df55095c6f07
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1639476917279.run(Script1639476917279.groovy:30)
+	... 16 more
+)
+
+2021-12-14 17:33:12 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/Microsite Prod/Page_Olay Holiday Program/button_SUPPORT' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Microsite Prod/Page_Olay Holiday Program/button_SUPPORT'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Tc6-Support.run(Tc6-Support:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1639483240290.run(TempTestSuite1639483240290.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=95.0.4638.69)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'knoldus-Latitude-3520', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-41-generic', java.version: '1.8.0_292'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.69, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: /tmp/.com.google.Chrome.u8auZx}, goog:chromeOptions: {debuggerAddress: localhost:34297}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5972903d4951bb8446e7df55095c6f07
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1639476917279.run(Script1639476917279.groovy:30)
+	... 16 more
+)
+[[ATTACHMENT|/home/knoldus/Katalon Studio/Learn1/Reports/20211214_173040/Microsite/Olay/20211214_173040/1639483392097.png]]]]></system-out>
+         <system-err><![CDATA[2021-12-14 17:32:59 - [TEST_CASE][FAILED] - Test Cases/microsites/Tc6-Support: Test Cases/microsites/Tc6-Support FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Microsite Prod/Page_Olay Holiday Program/button_SUPPORT'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Tc6-Support.run(Tc6-Support:30)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:363)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1639483240290.run(TempTestSuite1639483240290.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=95.0.4638.69)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'knoldus-Latitude-3520', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.11.0-41-generic', java.version: '1.8.0_292'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.69, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: /tmp/.com.google.Chrome.u8auZx}, goog:chromeOptions: {debuggerAddress: localhost:34297}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5972903d4951bb8446e7df55095c6f07
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-12-14 17:30:50 - [TEST_SUITE][ERROR] - Olay: Test Cases/microsites/Tc5-FAQ FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.testobject.ObjectRepository.findTestObject() is applicable for argument types: (java.lang.String, java.lang.Integer) values: [Object Repository/Microsite Prod/Page_Olay Holiday Program/mat-panel-title_How long do I have to submi_b881c2, ...]
+Possible solutions: findTestObject(java.lang.String), findTestObject(java.lang.String, java.util.Map), findRequestObject(java.lang.String, java.io.File)
+	at Tc5-FAQ.run(Tc5-FAQ:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1639483240290.run(TempTestSuite1639483240290.groovy:36)]]></system-out>
+      <system-err><![CDATA[2021-12-14 17:30:50 - [TEST_SUITE][ERROR] - Olay: Test Cases/microsites/Tc5-FAQ FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: static com.kms.katalon.core.testobject.ObjectRepository.findTestObject() is applicable for argument types: (java.lang.String, java.lang.Integer) values: [Object Repository/Microsite Prod/Page_Olay Holiday Program/mat-panel-title_How long do I have to submi_b881c2, ...]
+Possible solutions: findTestObject(java.lang.String), findTestObject(java.lang.String, java.util.Map), findRequestObject(java.lang.String, java.io.File)
+	at Tc5-FAQ.run(Tc5-FAQ:37)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:442)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:433)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:412)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:404)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:281)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:181)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1639483240290.run(TempTestSuite1639483240290.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

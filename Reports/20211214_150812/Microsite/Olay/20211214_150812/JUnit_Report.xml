@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Olay" time="38.962" tests="3" failures="0" errors="0">
+   <testsuite name="Olay" tests="3" failures="0" errors="0" time="38.962" skipped="0" timestamp="2021-12-14 15:08:25" hostname="knoldus - knoldus-Latitude-3520" id="Test Suites/Microsite/Olay">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/knoldus/Katalon Studio/Learn1/Reports/20211214_150812/Microsite/Olay/20211214_150812"/>
+         <property name="logFiles" value="/home/knoldus/Katalon Studio/Learn1/Reports/20211214_150812/Microsite/Olay/20211214_150812/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="knoldus - knoldus-Latitude-3520"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="8.2.0.208"/>
+         <property name="browser" value="Chrome 95.0.4638.69"/>
+         <property name="hostAddress" value="127.0.1.1"/>
+         <property name="sessionId" value="814f992d241a85b99724eb2b7b8c1b8e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/microsites/Tc1-Login" time="12.214" classname="Test Cases/microsites/Tc1-Login" status="PASSED">
+         <system-out><![CDATA[2021-12-14 15:08:25 - [TEST_CASE][PASSED] - Test Cases/microsites/Tc1-Login: Test Cases/microsites/Tc1-Login
+
+2021-12-14 15:08:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-12-14 15:08:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-12-14 15:08:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-12-14 15:08:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-12-14 15:08:26 - [TEST_STEP][PASSED] - navigateToUrl(Url): Navigate to 'https://olaygift.com/login' successfully
+
+2021-12-14 15:08:35 - [MESSAGE][PASSED] - Navigate to 'https://olaygift.com/login' successfully
+
+2021-12-14 15:08:35 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-12-14 15:08:36 - [MESSAGE][PASSED] - Current window maximized
+
+2021-12-14 15:08:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Microsite Prod/Page_Olay Holiday Program/input_WELCOME_mat-input-0"), Username): Text 'Testing123@yopmail.com' is set on object 'Object Repository/Microsite Prod/Page_Olay Holiday Program/input_WELCOME_mat-input-0'
+
+2021-12-14 15:08:36 - [MESSAGE][PASSED] - Text 'Testing123@yopmail.com' is set on object 'Object Repository/Microsite Prod/Page_Olay Holiday Program/input_WELCOME_mat-input-0'
+
+2021-12-14 15:08:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Microsite Prod/Page_Olay Holiday Program/input__mat-input-1"), Password): Text 'Test@123' is set on object 'Object Repository/Microsite Prod/Page_Olay Holiday Program/input__mat-input-1'
+
+2021-12-14 15:08:37 - [MESSAGE][PASSED] - Text 'Test@123' is set on object 'Object Repository/Microsite Prod/Page_Olay Holiday Program/input__mat-input-1'
+
+2021-12-14 15:08:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Microsite Prod/Page_Olay Holiday Program/button_SUBMIT")): Object: 'Object Repository/Microsite Prod/Page_Olay Holiday Program/button_SUBMIT' is clicked on
+
+2021-12-14 15:08:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Microsite Prod/Page_Olay Holiday Program/button_SUBMIT' is clicked on
+
+2021-12-14 15:08:37 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-12-14 15:08:37 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/microsites/Tc2-Reset password" time="13.085" classname="Test Cases/microsites/Tc2-Reset password" status="PASSED">
+         <system-out><![CDATA[2021-12-14 15:08:37 - [TEST_CASE][PASSED] - Test Cases/microsites/Tc2-Reset password: Test Cases/microsites/Tc2-Reset password
+
+2021-12-14 15:08:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-12-14 15:08:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-12-14 15:08:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-12-14 15:08:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-12-14 15:08:38 - [TEST_STEP][PASSED] - navigateToUrl(Url): Navigate to 'https://olaygift.com/login' successfully
+
+2021-12-14 15:08:48 - [MESSAGE][PASSED] - Navigate to 'https://olaygift.com/login' successfully
+
+2021-12-14 15:08:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Microsite Prod/Page_Olay Holiday Program/a_Already registered but forgot your passwo_7296b8")): Object: 'Object Repository/Microsite Prod/Page_Olay Holiday Program/a_Already registered but forgot your passwo_7296b8' is clicked on
+
+2021-12-14 15:08:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Microsite Prod/Page_Olay Holiday Program/a_Already registered but forgot your passwo_7296b8' is clicked on
+
+2021-12-14 15:08:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Microsite Prod/Page_Olay Holiday Program/input_Forgot Password_mat-input-2"), Username): Text 'Testing123@yopmail.com' is set on object 'Object Repository/Microsite Prod/Page_Olay Holiday Program/input_Forgot Password_mat-input-2'
+
+2021-12-14 15:08:50 - [MESSAGE][PASSED] - Text 'Testing123@yopmail.com' is set on object 'Object Repository/Microsite Prod/Page_Olay Holiday Program/input_Forgot Password_mat-input-2'
+
+2021-12-14 15:08:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Microsite Prod/Page_Olay Holiday Program/button_SUBMIT")): Object: 'Object Repository/Microsite Prod/Page_Olay Holiday Program/button_SUBMIT' is clicked on
+
+2021-12-14 15:08:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Microsite Prod/Page_Olay Holiday Program/button_SUBMIT' is clicked on
+
+2021-12-14 15:08:50 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-12-14 15:08:50 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/microsites/Tc4- upload receipt" time="13.469" classname="Test Cases/microsites/Tc4- upload receipt" status="PASSED">
+         <system-out><![CDATA[2021-12-14 15:08:50 - [TEST_CASE][PASSED] - Test Cases/microsites/Tc4- upload receipt: Test Cases/microsites/Tc4- upload receipt
+
+2021-12-14 15:08:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-12-14 15:08:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-12-14 15:08:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-12-14 15:08:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-12-14 15:08:51 - [TEST_STEP][PASSED] - navigateToUrl(Url): Navigate to 'https://olaygift.com/login' successfully
+
+2021-12-14 15:09:00 - [MESSAGE][PASSED] - Navigate to 'https://olaygift.com/login' successfully
+
+2021-12-14 15:09:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Microsite Prod/Page_Olay Holiday Program/div_Email")): Object: 'Object Repository/Microsite Prod/Page_Olay Holiday Program/div_Email' is clicked on
+
+2021-12-14 15:09:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Microsite Prod/Page_Olay Holiday Program/div_Email' is clicked on
+
+2021-12-14 15:09:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Microsite Prod/Page_Olay Holiday Program/input_WELCOME_mat-input-0"), Username): Text 'Testing123@yopmail.com' is set on object 'Object Repository/Microsite Prod/Page_Olay Holiday Program/input_WELCOME_mat-input-0'
+
+2021-12-14 15:09:00 - [MESSAGE][PASSED] - Text 'Testing123@yopmail.com' is set on object 'Object Repository/Microsite Prod/Page_Olay Holiday Program/input_WELCOME_mat-input-0'
+
+2021-12-14 15:09:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Microsite Prod/Page_Olay Holiday Program/input__mat-input-1"), Password): Text 'Test@123' is set on object 'Object Repository/Microsite Prod/Page_Olay Holiday Program/input__mat-input-1'
+
+2021-12-14 15:09:01 - [MESSAGE][PASSED] - Text 'Test@123' is set on object 'Object Repository/Microsite Prod/Page_Olay Holiday Program/input__mat-input-1'
+
+2021-12-14 15:09:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Microsite Prod/Page_Olay Holiday Program/button_SUBMIT")): Object: 'Object Repository/Microsite Prod/Page_Olay Holiday Program/button_SUBMIT' is clicked on
+
+2021-12-14 15:09:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Microsite Prod/Page_Olay Holiday Program/button_SUBMIT' is clicked on
+
+2021-12-14 15:09:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Microsite Prod/Page_Olay Holiday Program/ngx-dropzone-label_Click here to upload rec_7b6b3a")): Object: 'Object Repository/Microsite Prod/Page_Olay Holiday Program/ngx-dropzone-label_Click here to upload rec_7b6b3a' is clicked on
+
+2021-12-14 15:09:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Microsite Prod/Page_Olay Holiday Program/ngx-dropzone-label_Click here to upload rec_7b6b3a' is clicked on
+
+2021-12-14 15:09:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Microsite Prod/Page_Olay Holiday Program/span_SUBMIT")): Object: 'Object Repository/Microsite Prod/Page_Olay Holiday Program/span_SUBMIT' is clicked on
+
+2021-12-14 15:09:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Microsite Prod/Page_Olay Holiday Program/span_SUBMIT' is clicked on
+
+2021-12-14 15:09:04 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-12-14 15:09:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-12-14 15:08:25 - [TEST_SUITE][PASSED] - Olay: Test Cases/microsites/Tc4- upload receipt]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

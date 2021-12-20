@@ -1,0 +1,816 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Microsite olay" time="294.704" tests="7" failures="0" errors="0">
+   <testsuite name="Microsite olay" tests="7" failures="0" errors="0" time="294.704" skipped="0" timestamp="2021-12-17 15:44:51" hostname="knoldus - knoldus-Latitude-3520" id="Test Suites/Microsite olay Staging/Microsite olay">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/knoldus/Katalon Studio/Learn1/Reports/20211217_154441/Microsite olay Staging/Microsite olay/20211217_154441"/>
+         <property name="logFiles" value="/home/knoldus/Katalon Studio/Learn1/Reports/20211217_154441/Microsite olay Staging/Microsite olay/20211217_154441/execution0.log"/>
+         <property name="attachments" value="/home/knoldus/Katalon Studio/Learn1/Reports/20211217_154441/Microsite olay Staging/Microsite olay/20211217_154441/1639736108644.png, /home/knoldus/Katalon Studio/Learn1/Reports/20211217_154441/Microsite olay Staging/Microsite olay/20211217_154441/1639736121056.png, /home/knoldus/Katalon Studio/Learn1/Reports/20211217_154441/Microsite olay Staging/Microsite olay/20211217_154441/1639736135311.png, /home/knoldus/Katalon Studio/Learn1/Reports/20211217_154441/Microsite olay Staging/Microsite olay/20211217_154441/1639736179890.png, /home/knoldus/Katalon Studio/Learn1/Reports/20211217_154441/Microsite olay Staging/Microsite olay/20211217_154441/1639736274513.png, /home/knoldus/Katalon Studio/Learn1/Reports/20211217_154441/Microsite olay Staging/Microsite olay/20211217_154441/1639736370154.png, /home/knoldus/Katalon Studio/Learn1/Reports/20211217_154441/Microsite olay Staging/Microsite olay/20211217_154441/1639736385720.png"/>
+         <property name="hostName" value="knoldus - knoldus-Latitude-3520"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="8.2.0.208"/>
+         <property name="browser" value="Chrome 95.0.4638.69"/>
+         <property name="hostAddress" value="127.0.1.1"/>
+         <property name="sessionId" value="d5d581759feac2cb8df33e9be5954a22"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/microsite staging/Login/Tc-1" time="17.386" classname="Test Cases/microsite staging/Login/Tc-1" status="PASSED">
+         <system-out><![CDATA[2021-12-17 15:44:51 - [TEST_CASE][PASSED] - Test Cases/microsite staging/Login/Tc-1: Test Cases/microsite staging/Login/Tc-1
+
+2021-12-17 15:44:51 - [TEST_STEP][PASSED] - callTestCase(findTestCase("microsite staging/Open browser/Tc2-Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/microsite staging/Open browser/Tc2-Login' successfully
+
+2021-12-17 15:44:51 - [TEST_CASE][PASSED] - Test Cases/microsite staging/Open browser/Tc2-Login: Test Cases/microsite staging/Open browser/Tc2-Login
+
+2021-12-17 15:44:51 - [TEST_STEP][PASSED] - callTestCase(findTestCase("microsite staging/Open browser/Tc-1"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/microsite staging/Open browser/Tc-1' successfully
+
+2021-12-17 15:44:51 - [TEST_CASE][PASSED] - Test Cases/microsite staging/Open browser/Tc-1: Test Cases/microsite staging/Open browser/Tc-1
+
+2021-12-17 15:44:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-12-17 15:44:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-12-17 15:44:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-12-17 15:44:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-12-17 15:44:53 - [TEST_STEP][PASSED] - navigateToUrl(urlstaging): Navigate to 'https://holidayolay.3tlstaging.com/login' successfully
+
+2021-12-17 15:45:04 - [MESSAGE][PASSED] - Navigate to 'https://holidayolay.3tlstaging.com/login' successfully
+
+2021-12-17 15:45:04 - [TEST_STEP][PASSED] - CurrentUrL = getUrl(): Current window's url is: 'https://holidayolay.3tlstaging.com/login'
+
+2021-12-17 15:45:04 - [MESSAGE][PASSED] - Current window's url is: 'https://holidayolay.3tlstaging.com/login'
+
+2021-12-17 15:45:04 - [TEST_STEP][PASSED] - verifyMatch(CurrentUrL, urlstaging, true): Actual text 'https://holidayolay.3tlstaging.com/login' and expected text 'https://holidayolay.3tlstaging.com/login' are matched  using regular expression
+
+2021-12-17 15:45:04 - [MESSAGE][PASSED] - Actual text 'https://holidayolay.3tlstaging.com/login' and expected text 'https://holidayolay.3tlstaging.com/login' are matched  using regular expression
+
+2021-12-17 15:45:04 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-12-17 15:45:04 - [MESSAGE][PASSED] - Current window maximized
+
+2021-12-17 15:45:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/microsite staging/Open browser/Tc-1' successfully
+
+2021-12-17 15:45:04 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/assert/Page_Olay Holiday Program/div_Username"), "Username"): Actual text and expected text of test object 'Object Repository/assert/Page_Olay Holiday Program/div_Username' are matched.
+
+2021-12-17 15:45:05 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/assert/Page_Olay Holiday Program/div_Username' are matched.
+
+2021-12-17 15:45:05 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/assert/Page_Olay Holiday Program/div_Password"), "Password"): Actual text and expected text of test object 'Object Repository/assert/Page_Olay Holiday Program/div_Password' are matched.
+
+2021-12-17 15:45:05 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/assert/Page_Olay Holiday Program/div_Password' are matched.
+
+2021-12-17 15:45:05 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/input_Please Enter you Credentials_mat-input-0"), LoginUsername): Keys 'pg_olayholiday' sent to object: 'Object Repository/micro staging/Page_Olay Holiday Program/input_Please Enter you Credentials_mat-input-0'
+
+2021-12-17 15:45:05 - [MESSAGE][PASSED] - Keys 'pg_olayholiday' sent to object: 'Object Repository/micro staging/Page_Olay Holiday Program/input_Please Enter you Credentials_mat-input-0'
+
+2021-12-17 15:45:05 - [TEST_STEP][NOT_RUN] - click(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/div_Password")): NOT_RUN: click(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/div_Password"))
+
+2021-12-17 15:45:05 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/div_Password"))
+
+2021-12-17 15:45:05 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/input_Username_mat-input-1"), Loginpswd): Keys '1q2w3e4r!@#' sent to object: 'Object Repository/micro staging/Page_Olay Holiday Program/input_Username_mat-input-1'
+
+2021-12-17 15:45:05 - [MESSAGE][PASSED] - Keys '1q2w3e4r!@#' sent to object: 'Object Repository/micro staging/Page_Olay Holiday Program/input_Username_mat-input-1'
+
+2021-12-17 15:45:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/button_Submit")): Object: 'Object Repository/micro staging/Page_Olay Holiday Program/button_Submit' is clicked on
+
+2021-12-17 15:45:06 - [MESSAGE][PASSED] - Object: 'Object Repository/micro staging/Page_Olay Holiday Program/button_Submit' is clicked on
+
+2021-12-17 15:45:06 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/microsite staging/Open browser/Tc2-Login' successfully
+
+2021-12-17 15:45:06 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/input_WELCOME_mat-input-2"), Emailid): Keys 'akki2323@yopmail.com' sent to object: 'Object Repository/micro staging/Page_Olay Holiday Program/input_WELCOME_mat-input-2'
+
+2021-12-17 15:45:06 - [MESSAGE][PASSED] - Keys 'akki2323@yopmail.com' sent to object: 'Object Repository/micro staging/Page_Olay Holiday Program/input_WELCOME_mat-input-2'
+
+2021-12-17 15:45:06 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/input__mat-input-3"), Pswd): Keys '3TL@testing' sent to object: 'Object Repository/micro staging/Page_Olay Holiday Program/input__mat-input-3'
+
+2021-12-17 15:45:07 - [MESSAGE][PASSED] - Keys '3TL@testing' sent to object: 'Object Repository/micro staging/Page_Olay Holiday Program/input__mat-input-3'
+
+2021-12-17 15:45:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/button_SUBMIT (7)")): Object: 'Object Repository/micro staging/Page_Olay Holiday Program/button_SUBMIT (7)' is clicked on
+
+2021-12-17 15:45:07 - [MESSAGE][PASSED] - Object: 'Object Repository/micro staging/Page_Olay Holiday Program/button_SUBMIT (7)' is clicked on
+
+2021-12-17 15:45:07 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2021-12-17 15:45:08 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/knoldus/Katalon Studio/Learn1/Reports/20211217_154441/Microsite olay Staging/Microsite olay/20211217_154441/1639736108644.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/microsite staging/Login/Tc-2" time="12.345" classname="Test Cases/microsite staging/Login/Tc-2" status="PASSED">
+         <system-out><![CDATA[2021-12-17 15:45:08 - [TEST_CASE][PASSED] - Test Cases/microsite staging/Login/Tc-2: Test Cases/microsite staging/Login/Tc-2
+
+2021-12-17 15:45:08 - [TEST_STEP][PASSED] - callTestCase(findTestCase("microsite staging/Open browser/Tc2-Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/microsite staging/Open browser/Tc2-Login' successfully
+
+2021-12-17 15:45:08 - [TEST_CASE][PASSED] - Test Cases/microsite staging/Open browser/Tc2-Login: Test Cases/microsite staging/Open browser/Tc2-Login
+
+2021-12-17 15:45:08 - [TEST_STEP][PASSED] - callTestCase(findTestCase("microsite staging/Open browser/Tc-1"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/microsite staging/Open browser/Tc-1' successfully
+
+2021-12-17 15:45:08 - [TEST_CASE][PASSED] - Test Cases/microsite staging/Open browser/Tc-1: Test Cases/microsite staging/Open browser/Tc-1
+
+2021-12-17 15:45:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-12-17 15:45:09 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-12-17 15:45:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-12-17 15:45:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-12-17 15:45:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-12-17 15:45:09 - [TEST_STEP][PASSED] - navigateToUrl(urlstaging): Navigate to 'https://holidayolay.3tlstaging.com/login' successfully
+
+2021-12-17 15:45:17 - [MESSAGE][PASSED] - Navigate to 'https://holidayolay.3tlstaging.com/login' successfully
+
+2021-12-17 15:45:17 - [TEST_STEP][PASSED] - CurrentUrL = getUrl(): Current window's url is: 'https://holidayolay.3tlstaging.com/login'
+
+2021-12-17 15:45:17 - [MESSAGE][PASSED] - Current window's url is: 'https://holidayolay.3tlstaging.com/login'
+
+2021-12-17 15:45:17 - [TEST_STEP][PASSED] - verifyMatch(CurrentUrL, urlstaging, true): Actual text 'https://holidayolay.3tlstaging.com/login' and expected text 'https://holidayolay.3tlstaging.com/login' are matched  using regular expression
+
+2021-12-17 15:45:17 - [MESSAGE][PASSED] - Actual text 'https://holidayolay.3tlstaging.com/login' and expected text 'https://holidayolay.3tlstaging.com/login' are matched  using regular expression
+
+2021-12-17 15:45:17 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-12-17 15:45:18 - [MESSAGE][PASSED] - Current window maximized
+
+2021-12-17 15:45:18 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/microsite staging/Open browser/Tc-1' successfully
+
+2021-12-17 15:45:18 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/assert/Page_Olay Holiday Program/div_Username"), "Username"): Actual text and expected text of test object 'Object Repository/assert/Page_Olay Holiday Program/div_Username' are matched.
+
+2021-12-17 15:45:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/assert/Page_Olay Holiday Program/div_Username' are matched.
+
+2021-12-17 15:45:18 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/assert/Page_Olay Holiday Program/div_Password"), "Password"): Actual text and expected text of test object 'Object Repository/assert/Page_Olay Holiday Program/div_Password' are matched.
+
+2021-12-17 15:45:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/assert/Page_Olay Holiday Program/div_Password' are matched.
+
+2021-12-17 15:45:18 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/input_Please Enter you Credentials_mat-input-0"), LoginUsername): Keys 'pg_olayholiday' sent to object: 'Object Repository/micro staging/Page_Olay Holiday Program/input_Please Enter you Credentials_mat-input-0'
+
+2021-12-17 15:45:18 - [MESSAGE][PASSED] - Keys 'pg_olayholiday' sent to object: 'Object Repository/micro staging/Page_Olay Holiday Program/input_Please Enter you Credentials_mat-input-0'
+
+2021-12-17 15:45:18 - [TEST_STEP][NOT_RUN] - click(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/div_Password")): NOT_RUN: click(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/div_Password"))
+
+2021-12-17 15:45:18 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/div_Password"))
+
+2021-12-17 15:45:18 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/input_Username_mat-input-1"), Loginpswd): Keys '1q2w3e4r!@#' sent to object: 'Object Repository/micro staging/Page_Olay Holiday Program/input_Username_mat-input-1'
+
+2021-12-17 15:45:19 - [MESSAGE][PASSED] - Keys '1q2w3e4r!@#' sent to object: 'Object Repository/micro staging/Page_Olay Holiday Program/input_Username_mat-input-1'
+
+2021-12-17 15:45:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/button_Submit")): Object: 'Object Repository/micro staging/Page_Olay Holiday Program/button_Submit' is clicked on
+
+2021-12-17 15:45:19 - [MESSAGE][PASSED] - Object: 'Object Repository/micro staging/Page_Olay Holiday Program/button_Submit' is clicked on
+
+2021-12-17 15:45:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/microsite staging/Open browser/Tc2-Login' successfully
+
+2021-12-17 15:45:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/button_SUBMIT (10)")): Object: 'Object Repository/micro staging/Page_Olay Holiday Program/button_SUBMIT (10)' is clicked on
+
+2021-12-17 15:45:20 - [MESSAGE][PASSED] - Object: 'Object Repository/micro staging/Page_Olay Holiday Program/button_SUBMIT (10)' is clicked on
+
+2021-12-17 15:45:20 - [TEST_STEP][PASSED] - verifyTextPresent("Email is required", true): Text 'Email is required' is present on page  using regular expression
+
+2021-12-17 15:45:20 - [MESSAGE][PASSED] - Text 'Email is required' is present on page  using regular expression
+
+2021-12-17 15:45:20 - [TEST_STEP][PASSED] - verifyTextPresent("Password is required", true): Text 'Password is required' is present on page  using regular expression
+
+2021-12-17 15:45:20 - [MESSAGE][PASSED] - Text 'Password is required' is present on page  using regular expression
+
+2021-12-17 15:45:20 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2021-12-17 15:45:21 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/knoldus/Katalon Studio/Learn1/Reports/20211217_154441/Microsite olay Staging/Microsite olay/20211217_154441/1639736121056.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/microsite staging/Login/Tc-3" time="14.269" classname="Test Cases/microsite staging/Login/Tc-3" status="PASSED">
+         <system-out><![CDATA[2021-12-17 15:45:21 - [TEST_CASE][PASSED] - Test Cases/microsite staging/Login/Tc-3: Test Cases/microsite staging/Login/Tc-3
+
+2021-12-17 15:45:21 - [TEST_STEP][PASSED] - callTestCase(findTestCase("microsite staging/Open browser/Tc2-Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/microsite staging/Open browser/Tc2-Login' successfully
+
+2021-12-17 15:45:21 - [TEST_CASE][PASSED] - Test Cases/microsite staging/Open browser/Tc2-Login: Test Cases/microsite staging/Open browser/Tc2-Login
+
+2021-12-17 15:45:21 - [TEST_STEP][PASSED] - callTestCase(findTestCase("microsite staging/Open browser/Tc-1"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/microsite staging/Open browser/Tc-1' successfully
+
+2021-12-17 15:45:21 - [TEST_CASE][PASSED] - Test Cases/microsite staging/Open browser/Tc-1: Test Cases/microsite staging/Open browser/Tc-1
+
+2021-12-17 15:45:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-12-17 15:45:21 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-12-17 15:45:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-12-17 15:45:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-12-17 15:45:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-12-17 15:45:21 - [TEST_STEP][PASSED] - navigateToUrl(urlstaging): Navigate to 'https://holidayolay.3tlstaging.com/login' successfully
+
+2021-12-17 15:45:31 - [MESSAGE][PASSED] - Navigate to 'https://holidayolay.3tlstaging.com/login' successfully
+
+2021-12-17 15:45:31 - [TEST_STEP][PASSED] - CurrentUrL = getUrl(): Current window's url is: 'https://holidayolay.3tlstaging.com/login'
+
+2021-12-17 15:45:31 - [MESSAGE][PASSED] - Current window's url is: 'https://holidayolay.3tlstaging.com/login'
+
+2021-12-17 15:45:31 - [TEST_STEP][PASSED] - verifyMatch(CurrentUrL, urlstaging, true): Actual text 'https://holidayolay.3tlstaging.com/login' and expected text 'https://holidayolay.3tlstaging.com/login' are matched  using regular expression
+
+2021-12-17 15:45:31 - [MESSAGE][PASSED] - Actual text 'https://holidayolay.3tlstaging.com/login' and expected text 'https://holidayolay.3tlstaging.com/login' are matched  using regular expression
+
+2021-12-17 15:45:31 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-12-17 15:45:31 - [MESSAGE][PASSED] - Current window maximized
+
+2021-12-17 15:45:31 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/microsite staging/Open browser/Tc-1' successfully
+
+2021-12-17 15:45:31 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/assert/Page_Olay Holiday Program/div_Username"), "Username"): Actual text and expected text of test object 'Object Repository/assert/Page_Olay Holiday Program/div_Username' are matched.
+
+2021-12-17 15:45:31 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/assert/Page_Olay Holiday Program/div_Username' are matched.
+
+2021-12-17 15:45:31 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/assert/Page_Olay Holiday Program/div_Password"), "Password"): Actual text and expected text of test object 'Object Repository/assert/Page_Olay Holiday Program/div_Password' are matched.
+
+2021-12-17 15:45:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/assert/Page_Olay Holiday Program/div_Password' are matched.
+
+2021-12-17 15:45:32 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/input_Please Enter you Credentials_mat-input-0"), LoginUsername): Keys 'pg_olayholiday' sent to object: 'Object Repository/micro staging/Page_Olay Holiday Program/input_Please Enter you Credentials_mat-input-0'
+
+2021-12-17 15:45:32 - [MESSAGE][PASSED] - Keys 'pg_olayholiday' sent to object: 'Object Repository/micro staging/Page_Olay Holiday Program/input_Please Enter you Credentials_mat-input-0'
+
+2021-12-17 15:45:32 - [TEST_STEP][NOT_RUN] - click(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/div_Password")): NOT_RUN: click(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/div_Password"))
+
+2021-12-17 15:45:32 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/div_Password"))
+
+2021-12-17 15:45:32 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/input_Username_mat-input-1"), Loginpswd): Keys '1q2w3e4r!@#' sent to object: 'Object Repository/micro staging/Page_Olay Holiday Program/input_Username_mat-input-1'
+
+2021-12-17 15:45:32 - [MESSAGE][PASSED] - Keys '1q2w3e4r!@#' sent to object: 'Object Repository/micro staging/Page_Olay Holiday Program/input_Username_mat-input-1'
+
+2021-12-17 15:45:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/button_Submit")): Object: 'Object Repository/micro staging/Page_Olay Holiday Program/button_Submit' is clicked on
+
+2021-12-17 15:45:33 - [MESSAGE][PASSED] - Object: 'Object Repository/micro staging/Page_Olay Holiday Program/button_Submit' is clicked on
+
+2021-12-17 15:45:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/microsite staging/Open browser/Tc2-Login' successfully
+
+2021-12-17 15:45:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/input_WELCOME_mat-input-2"), "asdfghjgfdsdj2334@hjfdksdjfdks)(*()"): Text 'asdfghjgfdsdj2334@hjfdksdjfdks)(*()' is set on object 'Object Repository/micro staging/Page_Olay Holiday Program/input_WELCOME_mat-input-2'
+
+2021-12-17 15:45:34 - [MESSAGE][PASSED] - Text 'asdfghjgfdsdj2334@hjfdksdjfdks)(*()' is set on object 'Object Repository/micro staging/Page_Olay Holiday Program/input_WELCOME_mat-input-2'
+
+2021-12-17 15:45:34 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/input_Please enter a valid email address_ma_e31672"), "kwgy5fRXfBGnwwxnyAqiaw=="): Text ****** has been set on object 'Object Repository/micro staging/Page_Olay Holiday Program/input_Please enter a valid email address_ma_e31672'
+
+2021-12-17 15:45:34 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/micro staging/Page_Olay Holiday Program/input_Please enter a valid email address_ma_e31672'
+
+2021-12-17 15:45:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/button_SUBMIT (11)")): Object: 'Object Repository/micro staging/Page_Olay Holiday Program/button_SUBMIT (11)' is clicked on
+
+2021-12-17 15:45:34 - [MESSAGE][PASSED] - Object: 'Object Repository/micro staging/Page_Olay Holiday Program/button_SUBMIT (11)' is clicked on
+
+2021-12-17 15:45:34 - [TEST_STEP][PASSED] - verifyTextPresent("Please enter a valid email address", true): Text 'Please enter a valid email address' is present on page  using regular expression
+
+2021-12-17 15:45:35 - [MESSAGE][PASSED] - Text 'Please enter a valid email address' is present on page  using regular expression
+
+2021-12-17 15:45:35 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2021-12-17 15:45:35 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/knoldus/Katalon Studio/Learn1/Reports/20211217_154441/Microsite olay Staging/Microsite olay/20211217_154441/1639736135311.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/microsite staging/Login/Tc-4" time="44.644" classname="Test Cases/microsite staging/Login/Tc-4" status="PASSED">
+         <system-out><![CDATA[2021-12-17 15:45:35 - [TEST_CASE][PASSED] - Test Cases/microsite staging/Login/Tc-4: Test Cases/microsite staging/Login/Tc-4
+
+2021-12-17 15:45:35 - [TEST_STEP][PASSED] - callTestCase(findTestCase("microsite staging/Open browser/Tc2-Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/microsite staging/Open browser/Tc2-Login' successfully
+
+2021-12-17 15:45:35 - [TEST_CASE][PASSED] - Test Cases/microsite staging/Open browser/Tc2-Login: Test Cases/microsite staging/Open browser/Tc2-Login
+
+2021-12-17 15:45:35 - [TEST_STEP][PASSED] - callTestCase(findTestCase("microsite staging/Open browser/Tc-1"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/microsite staging/Open browser/Tc-1' successfully
+
+2021-12-17 15:45:35 - [TEST_CASE][PASSED] - Test Cases/microsite staging/Open browser/Tc-1: Test Cases/microsite staging/Open browser/Tc-1
+
+2021-12-17 15:45:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-12-17 15:45:35 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-12-17 15:45:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-12-17 15:45:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-12-17 15:45:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-12-17 15:45:36 - [TEST_STEP][PASSED] - navigateToUrl(urlstaging): Navigate to 'https://holidayolay.3tlstaging.com/login' successfully
+
+2021-12-17 15:45:44 - [MESSAGE][PASSED] - Navigate to 'https://holidayolay.3tlstaging.com/login' successfully
+
+2021-12-17 15:45:44 - [TEST_STEP][PASSED] - CurrentUrL = getUrl(): Current window's url is: 'https://holidayolay.3tlstaging.com/login'
+
+2021-12-17 15:45:44 - [MESSAGE][PASSED] - Current window's url is: 'https://holidayolay.3tlstaging.com/login'
+
+2021-12-17 15:45:44 - [TEST_STEP][PASSED] - verifyMatch(CurrentUrL, urlstaging, true): Actual text 'https://holidayolay.3tlstaging.com/login' and expected text 'https://holidayolay.3tlstaging.com/login' are matched  using regular expression
+
+2021-12-17 15:45:44 - [MESSAGE][PASSED] - Actual text 'https://holidayolay.3tlstaging.com/login' and expected text 'https://holidayolay.3tlstaging.com/login' are matched  using regular expression
+
+2021-12-17 15:45:44 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-12-17 15:45:44 - [MESSAGE][PASSED] - Current window maximized
+
+2021-12-17 15:45:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/microsite staging/Open browser/Tc-1' successfully
+
+2021-12-17 15:45:44 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/assert/Page_Olay Holiday Program/div_Username"), "Username"): Actual text and expected text of test object 'Object Repository/assert/Page_Olay Holiday Program/div_Username' are matched.
+
+2021-12-17 15:45:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/assert/Page_Olay Holiday Program/div_Username' are matched.
+
+2021-12-17 15:45:44 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/assert/Page_Olay Holiday Program/div_Password"), "Password"): Actual text and expected text of test object 'Object Repository/assert/Page_Olay Holiday Program/div_Password' are matched.
+
+2021-12-17 15:45:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/assert/Page_Olay Holiday Program/div_Password' are matched.
+
+2021-12-17 15:45:45 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/input_Please Enter you Credentials_mat-input-0"), LoginUsername): Keys 'pg_olayholiday' sent to object: 'Object Repository/micro staging/Page_Olay Holiday Program/input_Please Enter you Credentials_mat-input-0'
+
+2021-12-17 15:45:45 - [MESSAGE][PASSED] - Keys 'pg_olayholiday' sent to object: 'Object Repository/micro staging/Page_Olay Holiday Program/input_Please Enter you Credentials_mat-input-0'
+
+2021-12-17 15:45:45 - [TEST_STEP][NOT_RUN] - click(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/div_Password")): NOT_RUN: click(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/div_Password"))
+
+2021-12-17 15:45:45 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/div_Password"))
+
+2021-12-17 15:45:45 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/input_Username_mat-input-1"), Loginpswd): Keys '1q2w3e4r!@#' sent to object: 'Object Repository/micro staging/Page_Olay Holiday Program/input_Username_mat-input-1'
+
+2021-12-17 15:45:45 - [MESSAGE][PASSED] - Keys '1q2w3e4r!@#' sent to object: 'Object Repository/micro staging/Page_Olay Holiday Program/input_Username_mat-input-1'
+
+2021-12-17 15:45:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/button_Submit")): Object: 'Object Repository/micro staging/Page_Olay Holiday Program/button_Submit' is clicked on
+
+2021-12-17 15:45:46 - [MESSAGE][PASSED] - Object: 'Object Repository/micro staging/Page_Olay Holiday Program/button_Submit' is clicked on
+
+2021-12-17 15:45:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/microsite staging/Open browser/Tc2-Login' successfully
+
+2021-12-17 15:45:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/div_Email")): Object: 'Object Repository/micro staging/Page_Olay Holiday Program/div_Email' is clicked on
+
+2021-12-17 15:46:17 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: (.//*[normalize-space(text()) and normalize-space(.)='*'])[2]/following::div[15]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-12-17 15:46:17 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/micro staging/Page_Olay Holiday Program/div_Email'. Try using Self-healing.
+
+2021-12-17 15:46:17 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/micro staging/Page_Olay Holiday Program/div_Email' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='WELCOME'])[1]/following::div[12]'.
+
+2021-12-17 15:46:17 - [MESSAGE][PASSED] - Object: 'Object Repository/micro staging/Page_Olay Holiday Program/div_Email' is clicked on
+
+2021-12-17 15:46:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/input_WELCOME_mat-input-2"), "akki2323@yopmail.com"): Text 'akki2323@yopmail.com' is set on object 'Object Repository/micro staging/Page_Olay Holiday Program/input_WELCOME_mat-input-2'
+
+2021-12-17 15:46:18 - [MESSAGE][PASSED] - Text 'akki2323@yopmail.com' is set on object 'Object Repository/micro staging/Page_Olay Holiday Program/input_WELCOME_mat-input-2'
+
+2021-12-17 15:46:18 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/input__mat-input-3"), "cvW8qx4B2o3F4VwP/kNsqA=="): Text ****** has been set on object 'Object Repository/micro staging/Page_Olay Holiday Program/input__mat-input-3'
+
+2021-12-17 15:46:18 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/micro staging/Page_Olay Holiday Program/input__mat-input-3'
+
+2021-12-17 15:46:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/button_SUBMIT (12)")): Object: 'Object Repository/micro staging/Page_Olay Holiday Program/button_SUBMIT (12)' is clicked on
+
+2021-12-17 15:46:18 - [MESSAGE][PASSED] - Object: 'Object Repository/micro staging/Page_Olay Holiday Program/button_SUBMIT (12)' is clicked on
+
+2021-12-17 15:46:18 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/div_Invalid Credentials"), "Invalid Credentials"): Actual text and expected text of test object 'Object Repository/micro staging/Page_Olay Holiday Program/div_Invalid Credentials' are matched.
+
+2021-12-17 15:46:19 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/micro staging/Page_Olay Holiday Program/div_Invalid Credentials' are matched.
+
+2021-12-17 15:46:19 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2021-12-17 15:46:20 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/knoldus/Katalon Studio/Learn1/Reports/20211217_154441/Microsite olay Staging/Microsite olay/20211217_154441/1639736179890.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/microsite staging/Registration/Tc-1" time="94.582" classname="Test Cases/microsite staging/Registration/Tc-1" status="PASSED">
+         <system-out><![CDATA[2021-12-17 15:46:20 - [TEST_CASE][PASSED] - Test Cases/microsite staging/Registration/Tc-1: Test Cases/microsite staging/Registration/Tc-1
+
+2021-12-17 15:46:20 - [TEST_STEP][PASSED] - callTestCase(findTestCase("microsite staging/Open browser/Tc2-Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/microsite staging/Open browser/Tc2-Login' successfully
+
+2021-12-17 15:46:20 - [TEST_CASE][PASSED] - Test Cases/microsite staging/Open browser/Tc2-Login: Test Cases/microsite staging/Open browser/Tc2-Login
+
+2021-12-17 15:46:20 - [TEST_STEP][PASSED] - callTestCase(findTestCase("microsite staging/Open browser/Tc-1"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/microsite staging/Open browser/Tc-1' successfully
+
+2021-12-17 15:46:20 - [TEST_CASE][PASSED] - Test Cases/microsite staging/Open browser/Tc-1: Test Cases/microsite staging/Open browser/Tc-1
+
+2021-12-17 15:46:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-12-17 15:46:20 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-12-17 15:46:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-12-17 15:46:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-12-17 15:46:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-12-17 15:46:20 - [TEST_STEP][PASSED] - navigateToUrl(urlstaging): Navigate to 'https://holidayolay.3tlstaging.com/login' successfully
+
+2021-12-17 15:46:28 - [MESSAGE][PASSED] - Navigate to 'https://holidayolay.3tlstaging.com/login' successfully
+
+2021-12-17 15:46:28 - [TEST_STEP][PASSED] - CurrentUrL = getUrl(): Current window's url is: 'https://holidayolay.3tlstaging.com/login'
+
+2021-12-17 15:46:28 - [MESSAGE][PASSED] - Current window's url is: 'https://holidayolay.3tlstaging.com/login'
+
+2021-12-17 15:46:28 - [TEST_STEP][PASSED] - verifyMatch(CurrentUrL, urlstaging, true): Actual text 'https://holidayolay.3tlstaging.com/login' and expected text 'https://holidayolay.3tlstaging.com/login' are matched  using regular expression
+
+2021-12-17 15:46:28 - [MESSAGE][PASSED] - Actual text 'https://holidayolay.3tlstaging.com/login' and expected text 'https://holidayolay.3tlstaging.com/login' are matched  using regular expression
+
+2021-12-17 15:46:28 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-12-17 15:46:28 - [MESSAGE][PASSED] - Current window maximized
+
+2021-12-17 15:46:28 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/microsite staging/Open browser/Tc-1' successfully
+
+2021-12-17 15:46:28 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/assert/Page_Olay Holiday Program/div_Username"), "Username"): Actual text and expected text of test object 'Object Repository/assert/Page_Olay Holiday Program/div_Username' are matched.
+
+2021-12-17 15:46:28 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/assert/Page_Olay Holiday Program/div_Username' are matched.
+
+2021-12-17 15:46:28 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/assert/Page_Olay Holiday Program/div_Password"), "Password"): Actual text and expected text of test object 'Object Repository/assert/Page_Olay Holiday Program/div_Password' are matched.
+
+2021-12-17 15:46:29 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/assert/Page_Olay Holiday Program/div_Password' are matched.
+
+2021-12-17 15:46:29 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/input_Please Enter you Credentials_mat-input-0"), LoginUsername): Keys 'pg_olayholiday' sent to object: 'Object Repository/micro staging/Page_Olay Holiday Program/input_Please Enter you Credentials_mat-input-0'
+
+2021-12-17 15:46:29 - [MESSAGE][PASSED] - Keys 'pg_olayholiday' sent to object: 'Object Repository/micro staging/Page_Olay Holiday Program/input_Please Enter you Credentials_mat-input-0'
+
+2021-12-17 15:46:29 - [TEST_STEP][NOT_RUN] - click(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/div_Password")): NOT_RUN: click(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/div_Password"))
+
+2021-12-17 15:46:29 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/div_Password"))
+
+2021-12-17 15:46:29 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/input_Username_mat-input-1"), Loginpswd): Keys '1q2w3e4r!@#' sent to object: 'Object Repository/micro staging/Page_Olay Holiday Program/input_Username_mat-input-1'
+
+2021-12-17 15:46:29 - [MESSAGE][PASSED] - Keys '1q2w3e4r!@#' sent to object: 'Object Repository/micro staging/Page_Olay Holiday Program/input_Username_mat-input-1'
+
+2021-12-17 15:46:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/button_Submit")): Object: 'Object Repository/micro staging/Page_Olay Holiday Program/button_Submit' is clicked on
+
+2021-12-17 15:46:30 - [MESSAGE][PASSED] - Object: 'Object Repository/micro staging/Page_Olay Holiday Program/button_Submit' is clicked on
+
+2021-12-17 15:46:30 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/microsite staging/Open browser/Tc2-Login' successfully
+
+2021-12-17 15:46:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/a_Not registered yet Click here to start yo_c35e26")): Object: 'Object Repository/micro staging/Page_Olay Holiday Program/a_Not registered yet Click here to start yo_c35e26' is clicked on
+
+2021-12-17 15:46:30 - [MESSAGE][PASSED] - Object: 'Object Repository/micro staging/Page_Olay Holiday Program/a_Not registered yet Click here to start yo_c35e26' is clicked on
+
+2021-12-17 15:46:30 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/input_REGISTER_mat-input-4"), "Testing"): Keys 'Testing' sent to object: 'Object Repository/micro staging/Page_Olay Holiday Program/input_REGISTER_mat-input-4'
+
+2021-12-17 15:46:31 - [MESSAGE][PASSED] - Keys 'Testing' sent to object: 'Object Repository/micro staging/Page_Olay Holiday Program/input_REGISTER_mat-input-4'
+
+2021-12-17 15:46:31 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/input__mat-input-5"), "Testing"): Keys 'Testing' sent to object: 'Object Repository/micro staging/Page_Olay Holiday Program/input__mat-input-5'
+
+2021-12-17 15:46:32 - [MESSAGE][PASSED] - Keys 'Testing' sent to object: 'Object Repository/micro staging/Page_Olay Holiday Program/input__mat-input-5'
+
+2021-12-17 15:46:32 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/input__mat-input-6"), "testing3145@yopmail.com"): Keys 'testing3145@yopmail.com' sent to object: 'Object Repository/micro staging/Page_Olay Holiday Program/input__mat-input-6'
+
+2021-12-17 15:46:32 - [MESSAGE][PASSED] - Keys 'testing3145@yopmail.com' sent to object: 'Object Repository/micro staging/Page_Olay Holiday Program/input__mat-input-6'
+
+2021-12-17 15:46:32 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/input__mat-input-7"), "testing3145@yopmail.com"): Keys 'testing3145@yopmail.com' sent to object: 'Object Repository/micro staging/Page_Olay Holiday Program/input__mat-input-7'
+
+2021-12-17 15:46:32 - [MESSAGE][PASSED] - Keys 'testing3145@yopmail.com' sent to object: 'Object Repository/micro staging/Page_Olay Holiday Program/input__mat-input-7'
+
+2021-12-17 15:46:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/div_Password")): Object: 'Object Repository/micro staging/Page_Olay Holiday Program/div_Password' is clicked on
+
+2021-12-17 15:47:04 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //mat-dialog-container[@id='mat-dialog-0']/app-site-access/div/form/mat-form-field[2]/div/div/div[3]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-12-17 15:47:04 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/micro staging/Page_Olay Holiday Program/div_Password'. Try using Self-healing.
+
+2021-12-17 15:47:04 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/micro staging/Page_Olay Holiday Program/div_Password' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='*'])[1]/following::div[14]'.
+
+2021-12-17 15:47:04 - [MESSAGE][PASSED] - Object: 'Object Repository/micro staging/Page_Olay Holiday Program/div_Password' is clicked on
+
+2021-12-17 15:47:04 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/input__mat-input-8"), "Test@123"): Keys 'Test@123' sent to object: 'Object Repository/micro staging/Page_Olay Holiday Program/input__mat-input-8'
+
+2021-12-17 15:47:04 - [MESSAGE][PASSED] - Keys 'Test@123' sent to object: 'Object Repository/micro staging/Page_Olay Holiday Program/input__mat-input-8'
+
+2021-12-17 15:47:04 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/input__mat-input-9"), "Test@123"): Keys 'Test@123' sent to object: 'Object Repository/micro staging/Page_Olay Holiday Program/input__mat-input-9'
+
+2021-12-17 15:47:05 - [MESSAGE][PASSED] - Keys 'Test@123' sent to object: 'Object Repository/micro staging/Page_Olay Holiday Program/input__mat-input-9'
+
+2021-12-17 15:47:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/div_help Address")): Object: 'Object Repository/micro staging/Page_Olay Holiday Program/div_help Address' is clicked on
+
+2021-12-17 15:47:05 - [MESSAGE][PASSED] - Object: 'Object Repository/micro staging/Page_Olay Holiday Program/div_help Address' is clicked on
+
+2021-12-17 15:47:05 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/input__address"), "9800 Fredericksburg Rd, San Antonio, TX 78288, USA"): Keys '9800 Fredericksburg Rd, San Antonio, TX 78288, USA' sent to object: 'Object Repository/micro staging/Page_Olay Holiday Program/input__address'
+
+2021-12-17 15:47:06 - [MESSAGE][PASSED] - Keys '9800 Fredericksburg Rd, San Antonio, TX 78288, USA' sent to object: 'Object Repository/micro staging/Page_Olay Holiday Program/input__address'
+
+2021-12-17 15:47:06 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/input__address"), Keys.chord(DOWN)): Keys 'DOWN + ' sent to object: 'Object Repository/micro staging/Page_Olay Holiday Program/input__address'
+
+2021-12-17 15:47:07 - [MESSAGE][PASSED] - Keys 'DOWN + ' sent to object: 'Object Repository/micro staging/Page_Olay Holiday Program/input__address'
+
+2021-12-17 15:47:07 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/input__address"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/micro staging/Page_Olay Holiday Program/input__address'
+
+2021-12-17 15:47:07 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/micro staging/Page_Olay Holiday Program/input__address'
+
+2021-12-17 15:47:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/span__mat-checkbox-inner-container")): Object: 'Object Repository/micro staging/Page_Olay Holiday Program/span__mat-checkbox-inner-container' is clicked on
+
+2021-12-17 15:47:07 - [MESSAGE][PASSED] - Object: 'Object Repository/micro staging/Page_Olay Holiday Program/span__mat-checkbox-inner-container' is clicked on
+
+2021-12-17 15:47:07 - [TEST_STEP][PASSED] - delay(45): Delayed 45 second(s)
+
+2021-12-17 15:47:52 - [MESSAGE][PASSED] - Delayed 45 second(s)
+
+2021-12-17 15:47:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/button_SUBMIT (9)")): Object: 'Object Repository/micro staging/Page_Olay Holiday Program/button_SUBMIT (9)' is clicked on
+
+2021-12-17 15:47:53 - [MESSAGE][PASSED] - Object: 'Object Repository/micro staging/Page_Olay Holiday Program/button_SUBMIT (9)' is clicked on
+
+2021-12-17 15:47:53 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2021-12-17 15:47:54 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/knoldus/Katalon Studio/Learn1/Reports/20211217_154441/Microsite olay Staging/Microsite olay/20211217_154441/1639736274513.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/microsite staging/Registration/tc-2" time="95.614" classname="Test Cases/microsite staging/Registration/tc-2" status="PASSED">
+         <system-out><![CDATA[2021-12-17 15:47:54 - [TEST_CASE][PASSED] - Test Cases/microsite staging/Registration/tc-2: Test Cases/microsite staging/Registration/tc-2
+
+2021-12-17 15:47:54 - [TEST_STEP][PASSED] - callTestCase(findTestCase("microsite staging/Open browser/Tc2-Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/microsite staging/Open browser/Tc2-Login' successfully
+
+2021-12-17 15:47:54 - [TEST_CASE][PASSED] - Test Cases/microsite staging/Open browser/Tc2-Login: Test Cases/microsite staging/Open browser/Tc2-Login
+
+2021-12-17 15:47:54 - [TEST_STEP][PASSED] - callTestCase(findTestCase("microsite staging/Open browser/Tc-1"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/microsite staging/Open browser/Tc-1' successfully
+
+2021-12-17 15:47:54 - [TEST_CASE][PASSED] - Test Cases/microsite staging/Open browser/Tc-1: Test Cases/microsite staging/Open browser/Tc-1
+
+2021-12-17 15:47:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-12-17 15:47:54 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-12-17 15:47:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-12-17 15:47:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-12-17 15:47:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-12-17 15:47:55 - [TEST_STEP][PASSED] - navigateToUrl(urlstaging): Navigate to 'https://holidayolay.3tlstaging.com/login' successfully
+
+2021-12-17 15:48:04 - [MESSAGE][PASSED] - Navigate to 'https://holidayolay.3tlstaging.com/login' successfully
+
+2021-12-17 15:48:04 - [TEST_STEP][PASSED] - CurrentUrL = getUrl(): Current window's url is: 'https://holidayolay.3tlstaging.com/login'
+
+2021-12-17 15:48:04 - [MESSAGE][PASSED] - Current window's url is: 'https://holidayolay.3tlstaging.com/login'
+
+2021-12-17 15:48:04 - [TEST_STEP][PASSED] - verifyMatch(CurrentUrL, urlstaging, true): Actual text 'https://holidayolay.3tlstaging.com/login' and expected text 'https://holidayolay.3tlstaging.com/login' are matched  using regular expression
+
+2021-12-17 15:48:04 - [MESSAGE][PASSED] - Actual text 'https://holidayolay.3tlstaging.com/login' and expected text 'https://holidayolay.3tlstaging.com/login' are matched  using regular expression
+
+2021-12-17 15:48:04 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-12-17 15:48:04 - [MESSAGE][PASSED] - Current window maximized
+
+2021-12-17 15:48:04 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/microsite staging/Open browser/Tc-1' successfully
+
+2021-12-17 15:48:04 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/assert/Page_Olay Holiday Program/div_Username"), "Username"): Actual text and expected text of test object 'Object Repository/assert/Page_Olay Holiday Program/div_Username' are matched.
+
+2021-12-17 15:48:04 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/assert/Page_Olay Holiday Program/div_Username' are matched.
+
+2021-12-17 15:48:04 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/assert/Page_Olay Holiday Program/div_Password"), "Password"): Actual text and expected text of test object 'Object Repository/assert/Page_Olay Holiday Program/div_Password' are matched.
+
+2021-12-17 15:48:05 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/assert/Page_Olay Holiday Program/div_Password' are matched.
+
+2021-12-17 15:48:05 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/input_Please Enter you Credentials_mat-input-0"), LoginUsername): Keys 'pg_olayholiday' sent to object: 'Object Repository/micro staging/Page_Olay Holiday Program/input_Please Enter you Credentials_mat-input-0'
+
+2021-12-17 15:48:05 - [MESSAGE][PASSED] - Keys 'pg_olayholiday' sent to object: 'Object Repository/micro staging/Page_Olay Holiday Program/input_Please Enter you Credentials_mat-input-0'
+
+2021-12-17 15:48:05 - [TEST_STEP][NOT_RUN] - click(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/div_Password")): NOT_RUN: click(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/div_Password"))
+
+2021-12-17 15:48:05 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/div_Password"))
+
+2021-12-17 15:48:05 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/input_Username_mat-input-1"), Loginpswd): Keys '1q2w3e4r!@#' sent to object: 'Object Repository/micro staging/Page_Olay Holiday Program/input_Username_mat-input-1'
+
+2021-12-17 15:48:05 - [MESSAGE][PASSED] - Keys '1q2w3e4r!@#' sent to object: 'Object Repository/micro staging/Page_Olay Holiday Program/input_Username_mat-input-1'
+
+2021-12-17 15:48:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/button_Submit")): Object: 'Object Repository/micro staging/Page_Olay Holiday Program/button_Submit' is clicked on
+
+2021-12-17 15:48:05 - [MESSAGE][PASSED] - Object: 'Object Repository/micro staging/Page_Olay Holiday Program/button_Submit' is clicked on
+
+2021-12-17 15:48:05 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/microsite staging/Open browser/Tc2-Login' successfully
+
+2021-12-17 15:48:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/a_Not registered yet Click here to start yo_c35e26")): Object: 'Object Repository/micro staging/Page_Olay Holiday Program/a_Not registered yet Click here to start yo_c35e26' is clicked on
+
+2021-12-17 15:48:06 - [MESSAGE][PASSED] - Object: 'Object Repository/micro staging/Page_Olay Holiday Program/a_Not registered yet Click here to start yo_c35e26' is clicked on
+
+2021-12-17 15:48:06 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/input_REGISTER_mat-input-4"), "Testing"): Keys 'Testing' sent to object: 'Object Repository/micro staging/Page_Olay Holiday Program/input_REGISTER_mat-input-4'
+
+2021-12-17 15:48:07 - [MESSAGE][PASSED] - Keys 'Testing' sent to object: 'Object Repository/micro staging/Page_Olay Holiday Program/input_REGISTER_mat-input-4'
+
+2021-12-17 15:48:07 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/input__mat-input-5"), "Testing"): Keys 'Testing' sent to object: 'Object Repository/micro staging/Page_Olay Holiday Program/input__mat-input-5'
+
+2021-12-17 15:48:08 - [MESSAGE][PASSED] - Keys 'Testing' sent to object: 'Object Repository/micro staging/Page_Olay Holiday Program/input__mat-input-5'
+
+2021-12-17 15:48:08 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/input__mat-input-6"), "testing345@yopmail.com"): Keys 'testing345@yopmail.com' sent to object: 'Object Repository/micro staging/Page_Olay Holiday Program/input__mat-input-6'
+
+2021-12-17 15:48:08 - [MESSAGE][PASSED] - Keys 'testing345@yopmail.com' sent to object: 'Object Repository/micro staging/Page_Olay Holiday Program/input__mat-input-6'
+
+2021-12-17 15:48:08 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/input__mat-input-7"), "testing345@yopmail.com"): Keys 'testing345@yopmail.com' sent to object: 'Object Repository/micro staging/Page_Olay Holiday Program/input__mat-input-7'
+
+2021-12-17 15:48:08 - [MESSAGE][PASSED] - Keys 'testing345@yopmail.com' sent to object: 'Object Repository/micro staging/Page_Olay Holiday Program/input__mat-input-7'
+
+2021-12-17 15:48:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/div_Password")): Object: 'Object Repository/micro staging/Page_Olay Holiday Program/div_Password' is clicked on
+
+2021-12-17 15:48:39 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //mat-dialog-container[@id='mat-dialog-0']/app-site-access/div/form/mat-form-field[2]/div/div/div[3]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-12-17 15:48:39 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/micro staging/Page_Olay Holiday Program/div_Password'. Try using Self-healing.
+
+2021-12-17 15:48:40 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/micro staging/Page_Olay Holiday Program/div_Password' was broken. Propose an alternative one: '(.//*[normalize-space(text()) and normalize-space(.)='*'])[1]/following::div[14]'.
+
+2021-12-17 15:48:40 - [MESSAGE][PASSED] - Object: 'Object Repository/micro staging/Page_Olay Holiday Program/div_Password' is clicked on
+
+2021-12-17 15:48:40 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/input__mat-input-8"), "Test@123"): Keys 'Test@123' sent to object: 'Object Repository/micro staging/Page_Olay Holiday Program/input__mat-input-8'
+
+2021-12-17 15:48:40 - [MESSAGE][PASSED] - Keys 'Test@123' sent to object: 'Object Repository/micro staging/Page_Olay Holiday Program/input__mat-input-8'
+
+2021-12-17 15:48:40 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/input__mat-input-9"), "Test@123"): Keys 'Test@123' sent to object: 'Object Repository/micro staging/Page_Olay Holiday Program/input__mat-input-9'
+
+2021-12-17 15:48:40 - [MESSAGE][PASSED] - Keys 'Test@123' sent to object: 'Object Repository/micro staging/Page_Olay Holiday Program/input__mat-input-9'
+
+2021-12-17 15:48:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/div_help Address")): Object: 'Object Repository/micro staging/Page_Olay Holiday Program/div_help Address' is clicked on
+
+2021-12-17 15:48:41 - [MESSAGE][PASSED] - Object: 'Object Repository/micro staging/Page_Olay Holiday Program/div_help Address' is clicked on
+
+2021-12-17 15:48:41 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/input__address"), "9800 Fredericksburg Rd, San Antonio, TX 78288, USA"): Keys '9800 Fredericksburg Rd, San Antonio, TX 78288, USA' sent to object: 'Object Repository/micro staging/Page_Olay Holiday Program/input__address'
+
+2021-12-17 15:48:41 - [MESSAGE][PASSED] - Keys '9800 Fredericksburg Rd, San Antonio, TX 78288, USA' sent to object: 'Object Repository/micro staging/Page_Olay Holiday Program/input__address'
+
+2021-12-17 15:48:41 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/input__address"), Keys.chord(DOWN)): Keys 'DOWN + ' sent to object: 'Object Repository/micro staging/Page_Olay Holiday Program/input__address'
+
+2021-12-17 15:48:42 - [MESSAGE][PASSED] - Keys 'DOWN + ' sent to object: 'Object Repository/micro staging/Page_Olay Holiday Program/input__address'
+
+2021-12-17 15:48:42 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/input__address"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/micro staging/Page_Olay Holiday Program/input__address'
+
+2021-12-17 15:48:42 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/micro staging/Page_Olay Holiday Program/input__address'
+
+2021-12-17 15:48:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/span__mat-checkbox-inner-container")): Object: 'Object Repository/micro staging/Page_Olay Holiday Program/span__mat-checkbox-inner-container' is clicked on
+
+2021-12-17 15:48:43 - [MESSAGE][PASSED] - Object: 'Object Repository/micro staging/Page_Olay Holiday Program/span__mat-checkbox-inner-container' is clicked on
+
+2021-12-17 15:48:43 - [TEST_STEP][PASSED] - delay(45): Delayed 45 second(s)
+
+2021-12-17 15:49:28 - [MESSAGE][PASSED] - Delayed 45 second(s)
+
+2021-12-17 15:49:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/button_SUBMIT (9)")): Object: 'Object Repository/micro staging/Page_Olay Holiday Program/button_SUBMIT (9)' is clicked on
+
+2021-12-17 15:49:28 - [MESSAGE][PASSED] - Object: 'Object Repository/micro staging/Page_Olay Holiday Program/button_SUBMIT (9)' is clicked on
+
+2021-12-17 15:49:28 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2021-12-17 15:49:30 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/knoldus/Katalon Studio/Learn1/Reports/20211217_154441/Microsite olay Staging/Microsite olay/20211217_154441/1639736370154.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/microsite staging/Registration/Tc-3" time="15.567" classname="Test Cases/microsite staging/Registration/Tc-3" status="PASSED">
+         <system-out><![CDATA[2021-12-17 15:49:30 - [TEST_CASE][PASSED] - Test Cases/microsite staging/Registration/Tc-3: Test Cases/microsite staging/Registration/Tc-3
+
+2021-12-17 15:49:30 - [TEST_STEP][PASSED] - callTestCase(findTestCase("microsite staging/Open browser/Tc2-Login"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/microsite staging/Open browser/Tc2-Login' successfully
+
+2021-12-17 15:49:30 - [TEST_CASE][PASSED] - Test Cases/microsite staging/Open browser/Tc2-Login: Test Cases/microsite staging/Open browser/Tc2-Login
+
+2021-12-17 15:49:30 - [TEST_STEP][PASSED] - callTestCase(findTestCase("microsite staging/Open browser/Tc-1"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/microsite staging/Open browser/Tc-1' successfully
+
+2021-12-17 15:49:30 - [TEST_CASE][PASSED] - Test Cases/microsite staging/Open browser/Tc-1: Test Cases/microsite staging/Open browser/Tc-1
+
+2021-12-17 15:49:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-12-17 15:49:30 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-12-17 15:49:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-12-17 15:49:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-12-17 15:49:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-12-17 15:49:30 - [TEST_STEP][PASSED] - navigateToUrl(urlstaging): Navigate to 'https://holidayolay.3tlstaging.com/login' successfully
+
+2021-12-17 15:49:39 - [MESSAGE][PASSED] - Navigate to 'https://holidayolay.3tlstaging.com/login' successfully
+
+2021-12-17 15:49:39 - [TEST_STEP][PASSED] - CurrentUrL = getUrl(): Current window's url is: 'https://holidayolay.3tlstaging.com/login'
+
+2021-12-17 15:49:39 - [MESSAGE][PASSED] - Current window's url is: 'https://holidayolay.3tlstaging.com/login'
+
+2021-12-17 15:49:39 - [TEST_STEP][PASSED] - verifyMatch(CurrentUrL, urlstaging, true): Actual text 'https://holidayolay.3tlstaging.com/login' and expected text 'https://holidayolay.3tlstaging.com/login' are matched  using regular expression
+
+2021-12-17 15:49:39 - [MESSAGE][PASSED] - Actual text 'https://holidayolay.3tlstaging.com/login' and expected text 'https://holidayolay.3tlstaging.com/login' are matched  using regular expression
+
+2021-12-17 15:49:39 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-12-17 15:49:39 - [MESSAGE][PASSED] - Current window maximized
+
+2021-12-17 15:49:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/microsite staging/Open browser/Tc-1' successfully
+
+2021-12-17 15:49:39 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/assert/Page_Olay Holiday Program/div_Username"), "Username"): Actual text and expected text of test object 'Object Repository/assert/Page_Olay Holiday Program/div_Username' are matched.
+
+2021-12-17 15:49:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/assert/Page_Olay Holiday Program/div_Username' are matched.
+
+2021-12-17 15:49:39 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/assert/Page_Olay Holiday Program/div_Password"), "Password"): Actual text and expected text of test object 'Object Repository/assert/Page_Olay Holiday Program/div_Password' are matched.
+
+2021-12-17 15:49:39 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/assert/Page_Olay Holiday Program/div_Password' are matched.
+
+2021-12-17 15:49:39 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/input_Please Enter you Credentials_mat-input-0"), LoginUsername): Keys 'pg_olayholiday' sent to object: 'Object Repository/micro staging/Page_Olay Holiday Program/input_Please Enter you Credentials_mat-input-0'
+
+2021-12-17 15:49:40 - [MESSAGE][PASSED] - Keys 'pg_olayholiday' sent to object: 'Object Repository/micro staging/Page_Olay Holiday Program/input_Please Enter you Credentials_mat-input-0'
+
+2021-12-17 15:49:40 - [TEST_STEP][NOT_RUN] - click(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/div_Password")): NOT_RUN: click(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/div_Password"))
+
+2021-12-17 15:49:40 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/div_Password"))
+
+2021-12-17 15:49:40 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/input_Username_mat-input-1"), Loginpswd): Keys '1q2w3e4r!@#' sent to object: 'Object Repository/micro staging/Page_Olay Holiday Program/input_Username_mat-input-1'
+
+2021-12-17 15:49:40 - [MESSAGE][PASSED] - Keys '1q2w3e4r!@#' sent to object: 'Object Repository/micro staging/Page_Olay Holiday Program/input_Username_mat-input-1'
+
+2021-12-17 15:49:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/button_Submit")): Object: 'Object Repository/micro staging/Page_Olay Holiday Program/button_Submit' is clicked on
+
+2021-12-17 15:49:40 - [MESSAGE][PASSED] - Object: 'Object Repository/micro staging/Page_Olay Holiday Program/button_Submit' is clicked on
+
+2021-12-17 15:49:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/microsite staging/Open browser/Tc2-Login' successfully
+
+2021-12-17 15:49:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/a_Not registered yet Click here to start yo_c35e26")): Object: 'Object Repository/micro staging/Page_Olay Holiday Program/a_Not registered yet Click here to start yo_c35e26' is clicked on
+
+2021-12-17 15:49:41 - [MESSAGE][PASSED] - Object: 'Object Repository/micro staging/Page_Olay Holiday Program/a_Not registered yet Click here to start yo_c35e26' is clicked on
+
+2021-12-17 15:49:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/button_SUBMIT (14)")): Object: 'Object Repository/micro staging/Page_Olay Holiday Program/button_SUBMIT (14)' is clicked on
+
+2021-12-17 15:49:42 - [MESSAGE][PASSED] - Object: 'Object Repository/micro staging/Page_Olay Holiday Program/button_SUBMIT (14)' is clicked on
+
+2021-12-17 15:49:42 - [TEST_STEP][NOT_RUN] - click(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/div_Please enter your first name")): NOT_RUN: click(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/div_Please enter your first name"))
+
+2021-12-17 15:49:42 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/div_Please enter your first name"))
+
+2021-12-17 15:49:42 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/div_Please enter your first name"), "Please enter your first name"): Actual text and expected text of test object 'Object Repository/micro staging/Page_Olay Holiday Program/div_Please enter your first name' are matched.
+
+2021-12-17 15:49:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/micro staging/Page_Olay Holiday Program/div_Please enter your first name' are matched.
+
+2021-12-17 15:49:43 - [TEST_STEP][NOT_RUN] - click(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/mat-error_Please enter your last name")): NOT_RUN: click(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/mat-error_Please enter your last name"))
+
+2021-12-17 15:49:43 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/mat-error_Please enter your last name"))
+
+2021-12-17 15:49:43 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/mat-error_Please enter your last name"), "Please enter your last name"): Actual text and expected text of test object 'Object Repository/micro staging/Page_Olay Holiday Program/mat-error_Please enter your last name' are matched.
+
+2021-12-17 15:49:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/micro staging/Page_Olay Holiday Program/mat-error_Please enter your last name' are matched.
+
+2021-12-17 15:49:43 - [TEST_STEP][NOT_RUN] - click(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/div_Please enter your email")): NOT_RUN: click(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/div_Please enter your email"))
+
+2021-12-17 15:49:43 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/div_Please enter your email"))
+
+2021-12-17 15:49:43 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/div_Please enter your email"), "Please enter your email"): Actual text and expected text of test object 'Object Repository/micro staging/Page_Olay Holiday Program/div_Please enter your email' are matched.
+
+2021-12-17 15:49:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/micro staging/Page_Olay Holiday Program/div_Please enter your email' are matched.
+
+2021-12-17 15:49:43 - [TEST_STEP][NOT_RUN] - click(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/mat-error_Please confirm the email")): NOT_RUN: click(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/mat-error_Please confirm the email"))
+
+2021-12-17 15:49:43 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/mat-error_Please confirm the email"))
+
+2021-12-17 15:49:43 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/mat-error_Please confirm the email"), "Please confirm the email"): Actual text and expected text of test object 'Object Repository/micro staging/Page_Olay Holiday Program/mat-error_Please confirm the email' are matched.
+
+2021-12-17 15:49:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/micro staging/Page_Olay Holiday Program/mat-error_Please confirm the email' are matched.
+
+2021-12-17 15:49:43 - [TEST_STEP][NOT_RUN] - click(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/mat-error_Password is required")): NOT_RUN: click(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/mat-error_Password is required"))
+
+2021-12-17 15:49:43 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/mat-error_Password is required"))
+
+2021-12-17 15:49:43 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/mat-error_Password is required"), "Password is required"): Actual text and expected text of test object 'Object Repository/micro staging/Page_Olay Holiday Program/mat-error_Password is required' are matched.
+
+2021-12-17 15:49:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/micro staging/Page_Olay Holiday Program/mat-error_Password is required' are matched.
+
+2021-12-17 15:49:44 - [TEST_STEP][NOT_RUN] - click(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/div_Confirm password is required")): NOT_RUN: click(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/div_Confirm password is required"))
+
+2021-12-17 15:49:44 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/div_Confirm password is required"))
+
+2021-12-17 15:49:44 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/div_Confirm password is required"), "Confirm password is required"): Actual text and expected text of test object 'Object Repository/micro staging/Page_Olay Holiday Program/div_Confirm password is required' are matched.
+
+2021-12-17 15:49:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/micro staging/Page_Olay Holiday Program/div_Confirm password is required' are matched.
+
+2021-12-17 15:49:44 - [TEST_STEP][NOT_RUN] - click(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/mat-error_Please enter your address")): NOT_RUN: click(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/mat-error_Please enter your address"))
+
+2021-12-17 15:49:44 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/mat-error_Please enter your address"))
+
+2021-12-17 15:49:44 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/mat-error_Please enter your address"), "Please enter your address"): Actual text and expected text of test object 'Object Repository/micro staging/Page_Olay Holiday Program/mat-error_Please enter your address' are matched.
+
+2021-12-17 15:49:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/micro staging/Page_Olay Holiday Program/mat-error_Please enter your address' are matched.
+
+2021-12-17 15:49:44 - [TEST_STEP][NOT_RUN] - click(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/mat-error_Please enter valid city")): NOT_RUN: click(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/mat-error_Please enter valid city"))
+
+2021-12-17 15:49:44 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/mat-error_Please enter valid city"))
+
+2021-12-17 15:49:44 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/mat-error_Please enter valid city"), "Please enter valid city"): Actual text and expected text of test object 'Object Repository/micro staging/Page_Olay Holiday Program/mat-error_Please enter valid city' are matched.
+
+2021-12-17 15:49:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/micro staging/Page_Olay Holiday Program/mat-error_Please enter valid city' are matched.
+
+2021-12-17 15:49:44 - [TEST_STEP][NOT_RUN] - click(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/mat-error_Please enter valid state")): NOT_RUN: click(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/mat-error_Please enter valid state"))
+
+2021-12-17 15:49:44 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/mat-error_Please enter valid state"))
+
+2021-12-17 15:49:44 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/mat-error_Please enter valid state"), "Please enter valid state"): Actual text and expected text of test object 'Object Repository/micro staging/Page_Olay Holiday Program/mat-error_Please enter valid state' are matched.
+
+2021-12-17 15:49:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/micro staging/Page_Olay Holiday Program/mat-error_Please enter valid state' are matched.
+
+2021-12-17 15:49:45 - [TEST_STEP][NOT_RUN] - click(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/mat-error_Please enter valid Zip Code")): NOT_RUN: click(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/mat-error_Please enter valid Zip Code"))
+
+2021-12-17 15:49:45 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/mat-error_Please enter valid Zip Code"))
+
+2021-12-17 15:49:45 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/mat-error_Please enter valid Zip Code"), "Please enter valid Zip Code"): Actual text and expected text of test object 'Object Repository/micro staging/Page_Olay Holiday Program/mat-error_Please enter valid Zip Code' are matched.
+
+2021-12-17 15:49:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/micro staging/Page_Olay Holiday Program/mat-error_Please enter valid Zip Code' are matched.
+
+2021-12-17 15:49:45 - [TEST_STEP][NOT_RUN] - click(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/p_Please agree with the above")): NOT_RUN: click(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/p_Please agree with the above"))
+
+2021-12-17 15:49:45 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/p_Please agree with the above"))
+
+2021-12-17 15:49:45 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/p_Please agree with the above"), "Please agree with the above"): Actual text and expected text of test object 'Object Repository/micro staging/Page_Olay Holiday Program/p_Please agree with the above' are matched.
+
+2021-12-17 15:49:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/micro staging/Page_Olay Holiday Program/p_Please agree with the above' are matched.
+
+2021-12-17 15:49:45 - [TEST_STEP][NOT_RUN] - click(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/div_First Name Please enter your first name_af0647")): NOT_RUN: click(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/div_First Name Please enter your first name_af0647"))
+
+2021-12-17 15:49:45 - [MESSAGE][NOT_RUN] - NOT_RUN: click(findTestObject("Object Repository/micro staging/Page_Olay Holiday Program/div_First Name Please enter your first name_af0647"))
+
+2021-12-17 15:49:45 - [TEST_STEP][PASSED] - takeScreenshot(): Taking screenshot successfully
+
+2021-12-17 15:49:45 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|/home/knoldus/Katalon Studio/Learn1/Reports/20211217_154441/Microsite olay Staging/Microsite olay/20211217_154441/1639736385720.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-12-17 15:44:51 - [TEST_SUITE][PASSED] - Microsite olay: Test Cases/microsite staging/Registration/Tc-3]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

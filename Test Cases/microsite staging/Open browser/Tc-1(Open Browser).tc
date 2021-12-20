@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Navigate to url</description>
+   <name>Tc-1(Open Browser)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bb1ed2ea-9c56-427c-b624-60c2f0265384</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,94 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/micro/Page_Olay Holiday Program/button_Submit",
+      "brokenLocator": "(//button[@type\u003d\u0027submit\u0027])[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//mat-dialog-container[@id\u003d\u0027mat-dialog-0\u0027]/app-site-access/div/form/button",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/micro/Page_Olay Holiday Program/button_Submit_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/micro staging/Page_Olay Holiday Program/div_Password",
+      "brokenLocator": "//mat-dialog-container[@id\u003d\u0027mat-dialog-0\u0027]/app-site-access/div/form/mat-form-field[2]/div/div/div[3]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027*\u0027])[1]/following::div[14]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/micro staging/Page_Olay Holiday Program/div_Password_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/micro staging/Page_Olay Holiday Program/iframe__a-fbt95gmngblq",
+      "brokenLocator": "//iframe[@name\u003d\u0027a-fbt95gmngblq\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//re-captcha[@id\u003d\u0027ngrecaptcha-0\u0027]/div/div/iframe",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/micro staging/Page_Olay Holiday Program/iframe__a-fbt95gmngblq_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/micro staging/Page_Olay Holiday Program/div_id(katalon-rec_elementInfoDiv)",
+      "brokenLocator": "//div[@id\u003d\u0027katalon-rec_elementInfoDiv\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[3]/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/micro staging/Page_Olay Holiday Program/div_id(katalon-rec_elementInfoDiv)_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/micro staging/Page_Olay Holiday Program/iframe_html1body1div6div4iframe1_c-fbt95gmngblq",
+      "brokenLocator": "//iframe[@name\u003d\u0027c-fbt95gmngblq\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[4]/iframe",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/micro staging/Page_Olay Holiday Program/iframe_html1body1div6div4iframe1_c-fbt95gmngblq_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/micro staging/Page_Olay Holiday Program/a_Not registered yet Click here to start yo_c35e26",
+      "brokenLocator": "//a[contains(text(),\u0027Not registered yet? Click here to start your participation!\u0027)]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027SUBMIT\u0027])[1]/following::a[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/micro staging/Page_Olay Holiday Program/a_Not registered yet Click here to start yo_c35e26_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/micro staging/Page_Olay Holiday Program/input_REGISTER_mat-input-4",
+      "brokenLocator": "//input[@id\u003d\u0027mat-input-4\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/micro staging/Page_Olay Holiday Program/input_REGISTER_mat-input-4_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/micro staging/Page_Olay Holiday Program/div_Email",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027*\u0027])[2]/following::div[15]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027WELCOME\u0027])[1]/following::div[12]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/micro staging/Page_Olay Holiday Program/div_Email_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/micro staging/Page_Olay Holiday Program/p_Please agree with the above",
+      "brokenLocator": "//mat-error[@id\u003d\u0027mat-error-3\u0027]/p",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027*\u0027])[4]/following::p[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/micro staging/Page_Olay Holiday Program/p_Please agree with the above_neighbor.png"
+    }
+  ]
+}

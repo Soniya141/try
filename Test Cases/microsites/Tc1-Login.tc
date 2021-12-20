@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Olay Login</description>
+   <name>Tc1-Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>dc2efdaa-3c71-48f7-bfbf-23101fe9e53d</testCaseGuid>
+</TestCaseEntity>

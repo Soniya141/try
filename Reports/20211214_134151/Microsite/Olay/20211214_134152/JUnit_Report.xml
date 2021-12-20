@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Olay" time="49.112" tests="2" failures="0" errors="0">
+   <testsuite name="Olay" tests="2" failures="0" errors="0" time="49.112" skipped="0" timestamp="2021-12-14 13:42:06" hostname="knoldus - knoldus-Latitude-3520" id="Test Suites/Microsite/Olay">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/knoldus/Katalon Studio/Learn1/Reports/20211214_134151/Microsite/Olay/20211214_134152"/>
+         <property name="logFiles" value="/home/knoldus/Katalon Studio/Learn1/Reports/20211214_134151/Microsite/Olay/20211214_134152/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="knoldus - knoldus-Latitude-3520"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="8.2.0.208"/>
+         <property name="browser" value="Chrome 95.0.4638.69"/>
+         <property name="hostAddress" value="127.0.1.1"/>
+         <property name="sessionId" value="a5b0a6b4b9962fc0cc1cfa228d415169"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/microsites/Testcase1" time="27.349" classname="Test Cases/microsites/Testcase1" status="PASSED">
+         <system-out><![CDATA[2021-12-14 13:42:06 - [TEST_CASE][PASSED] - Test Cases/microsites/Testcase1: Test Cases/microsites/Testcase1
+
+2021-12-14 13:42:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-12-14 13:42:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-12-14 13:42:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-12-14 13:42:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-12-14 13:42:07 - [TEST_STEP][PASSED] - navigateToUrl(Url): Navigate to 'https://olaygift.com/login' successfully
+
+2021-12-14 13:42:32 - [MESSAGE][PASSED] - Navigate to 'https://olaygift.com/login' successfully
+
+2021-12-14 13:42:32 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2021-12-14 13:42:32 - [MESSAGE][PASSED] - Current window maximized
+
+2021-12-14 13:42:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Microsite Prod/Page_Olay Holiday Program/input_WELCOME_mat-input-0"), Username): Text 'Testing123@yopmail.com' is set on object 'Object Repository/Microsite Prod/Page_Olay Holiday Program/input_WELCOME_mat-input-0'
+
+2021-12-14 13:42:32 - [MESSAGE][PASSED] - Text 'Testing123@yopmail.com' is set on object 'Object Repository/Microsite Prod/Page_Olay Holiday Program/input_WELCOME_mat-input-0'
+
+2021-12-14 13:42:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Microsite Prod/Page_Olay Holiday Program/input__mat-input-1"), Password): Text 'Test@123' is set on object 'Object Repository/Microsite Prod/Page_Olay Holiday Program/input__mat-input-1'
+
+2021-12-14 13:42:33 - [MESSAGE][PASSED] - Text 'Test@123' is set on object 'Object Repository/Microsite Prod/Page_Olay Holiday Program/input__mat-input-1'
+
+2021-12-14 13:42:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Microsite Prod/Page_Olay Holiday Program/button_SUBMIT")): Object: 'Object Repository/Microsite Prod/Page_Olay Holiday Program/button_SUBMIT' is clicked on
+
+2021-12-14 13:42:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Microsite Prod/Page_Olay Holiday Program/button_SUBMIT' is clicked on
+
+2021-12-14 13:42:33 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-12-14 13:42:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/microsites/Testcase2" time="21.613" classname="Test Cases/microsites/Testcase2" status="PASSED">
+         <system-out><![CDATA[2021-12-14 13:42:33 - [TEST_CASE][PASSED] - Test Cases/microsites/Testcase2: Test Cases/microsites/Testcase2
+
+2021-12-14 13:42:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-12-14 13:42:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-12-14 13:42:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-12-14 13:42:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-12-14 13:42:34 - [TEST_STEP][PASSED] - navigateToUrl(Url): Navigate to 'https://olaygift.com/login' successfully
+
+2021-12-14 13:42:53 - [MESSAGE][PASSED] - Navigate to 'https://olaygift.com/login' successfully
+
+2021-12-14 13:42:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Microsite Prod/Page_Olay Holiday Program/a_Already registered but forgot your passwo_7296b8")): Object: 'Object Repository/Microsite Prod/Page_Olay Holiday Program/a_Already registered but forgot your passwo_7296b8' is clicked on
+
+2021-12-14 13:42:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Microsite Prod/Page_Olay Holiday Program/a_Already registered but forgot your passwo_7296b8' is clicked on
+
+2021-12-14 13:42:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Microsite Prod/Page_Olay Holiday Program/input_Forgot Password_mat-input-2"), Username): Text 'Testing123@yopmail.com' is set on object 'Object Repository/Microsite Prod/Page_Olay Holiday Program/input_Forgot Password_mat-input-2'
+
+2021-12-14 13:42:54 - [MESSAGE][PASSED] - Text 'Testing123@yopmail.com' is set on object 'Object Repository/Microsite Prod/Page_Olay Holiday Program/input_Forgot Password_mat-input-2'
+
+2021-12-14 13:42:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Microsite Prod/Page_Olay Holiday Program/button_SUBMIT")): Object: 'Object Repository/Microsite Prod/Page_Olay Holiday Program/button_SUBMIT' is clicked on
+
+2021-12-14 13:42:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Microsite Prod/Page_Olay Holiday Program/button_SUBMIT' is clicked on
+
+2021-12-14 13:42:55 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-12-14 13:42:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-12-14 13:42:06 - [TEST_SUITE][PASSED] - Olay: Test Cases/microsites/Testcase2]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

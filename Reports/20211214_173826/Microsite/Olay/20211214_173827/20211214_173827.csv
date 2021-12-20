@@ -1,0 +1,38 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Olay,Chrome 95.0.4638.69,,,2021-12-14 17:38:36,2021-12-14 17:39:46,1m - 10.784s,FAILED
+,,,,,,,
+Test Cases/microsites/Tc1-Login,Chrome 95.0.4638.69,Olay Login,,2021-12-14 17:38:36,2021-12-14 17:38:49,13.603s,PASSED
+"openBrowser("""")",Chrome 95.0.4638.69,,,2021-12-14 17:38:36,2021-12-14 17:38:37,0.710s,PASSED
+navigateToUrl(Url),Chrome 95.0.4638.69,,,2021-12-14 17:38:37,2021-12-14 17:38:48,11.171s,PASSED
+maximizeWindow(),Chrome 95.0.4638.69,,,2021-12-14 17:38:48,2021-12-14 17:38:48,0.122s,PASSED
+"setText(findTestObject(""Object Repository/Microsite Prod/Page_Olay Holiday Program/input_WELCOME_mat-input-0""), Username)",Chrome 95.0.4638.69,,,2021-12-14 17:38:48,2021-12-14 17:38:49,0.558s,PASSED
+"setText(findTestObject(""Object Repository/Microsite Prod/Page_Olay Holiday Program/input__mat-input-1""), Password)",Chrome 95.0.4638.69,,,2021-12-14 17:38:49,2021-12-14 17:38:49,0.529s,PASSED
+"click(findTestObject(""Object Repository/Microsite Prod/Page_Olay Holiday Program/button_SUBMIT""))",Chrome 95.0.4638.69,,,2021-12-14 17:38:49,2021-12-14 17:38:49,0.285s,PASSED
+closeBrowser(),Chrome 95.0.4638.69,,,2021-12-14 17:38:49,2021-12-14 17:38:49,0.078s,PASSED
+,,,,,,,
+Test Cases/microsites/Tc2-Reset password,Chrome 95.0.4638.69,Forget password,,2021-12-14 17:38:49,2021-12-14 17:39:02,12.181s,PASSED
+"openBrowser("""")",Chrome 95.0.4638.69,,,2021-12-14 17:38:50,2021-12-14 17:38:50,0.307s,PASSED
+navigateToUrl(Url),Chrome 95.0.4638.69,,,2021-12-14 17:38:50,2021-12-14 17:39:00,9.896s,PASSED
+"click(findTestObject(""Object Repository/Microsite Prod/Page_Olay Holiday Program/a_Already registered but forgot your passwo_7296b8""))",Chrome 95.0.4638.69,,,2021-12-14 17:39:00,2021-12-14 17:39:00,0.297s,PASSED
+"setText(findTestObject(""Object Repository/Microsite Prod/Page_Olay Holiday Program/input_Forgot Password_mat-input-2""), Username)",Chrome 95.0.4638.69,,,2021-12-14 17:39:00,2021-12-14 17:39:01,1.032s,PASSED
+"click(findTestObject(""Object Repository/Microsite Prod/Page_Olay Holiday Program/button_SUBMIT""))",Chrome 95.0.4638.69,,,2021-12-14 17:39:01,2021-12-14 17:39:02,0.479s,PASSED
+closeBrowser(),Chrome 95.0.4638.69,,,2021-12-14 17:39:02,2021-12-14 17:39:02,0.073s,PASSED
+,,,,,,,
+Test Cases/microsites/Tc4- upload receipt,Chrome 95.0.4638.69,,,2021-12-14 17:39:02,2021-12-14 17:39:16,14.773s,PASSED
+"openBrowser("""")",Chrome 95.0.4638.69,,,2021-12-14 17:39:02,2021-12-14 17:39:02,0.323s,PASSED
+navigateToUrl(Url),Chrome 95.0.4638.69,,,2021-12-14 17:39:02,2021-12-14 17:39:13,10.769s,PASSED
+"click(findTestObject(""Object Repository/Microsite Prod/Page_Olay Holiday Program/div_Email""))",Chrome 95.0.4638.69,,,2021-12-14 17:39:13,2021-12-14 17:39:13,0.278s,PASSED
+"setText(findTestObject(""Object Repository/Microsite Prod/Page_Olay Holiday Program/input_WELCOME_mat-input-0""), Username)",Chrome 95.0.4638.69,,,2021-12-14 17:39:13,2021-12-14 17:39:14,0.518s,PASSED
+"setText(findTestObject(""Object Repository/Microsite Prod/Page_Olay Holiday Program/input__mat-input-1""), Password)",Chrome 95.0.4638.69,,,2021-12-14 17:39:14,2021-12-14 17:39:14,0.523s,PASSED
+"click(findTestObject(""Object Repository/Microsite Prod/Page_Olay Holiday Program/button_SUBMIT""))",Chrome 95.0.4638.69,,,2021-12-14 17:39:14,2021-12-14 17:39:14,0.278s,PASSED
+"click(findTestObject(""Object Repository/Microsite Prod/Page_Olay Holiday Program/ngx-dropzone-label_Click here to upload rec_7b6b3a""))",Chrome 95.0.4638.69,,,2021-12-14 17:39:14,2021-12-14 17:39:16,1.570s,PASSED
+"click(findTestObject(""Object Repository/Microsite Prod/Page_Olay Holiday Program/span_SUBMIT""))",Chrome 95.0.4638.69,,,2021-12-14 17:39:16,2021-12-14 17:39:16,0.317s,PASSED
+closeBrowser(),Chrome 95.0.4638.69,,,2021-12-14 17:39:16,2021-12-14 17:39:16,0.071s,PASSED
+,,,,,,,
+Test Cases/microsites/Tc6-Support,Chrome 95.0.4638.69,,,2021-12-14 17:39:31,2021-12-14 17:39:46,15.733s,FAILED
+"openBrowser("""")",Chrome 95.0.4638.69,,,2021-12-14 17:39:31,2021-12-14 17:39:31,0.389s,PASSED
+navigateToUrl(Url),Chrome 95.0.4638.69,,,2021-12-14 17:39:31,2021-12-14 17:39:44,12.449s,PASSED
+"setText(findTestObject(""Object Repository/Microsite Prod/Page_Olay Holiday Program/input_WELCOME_mat-input-0""), Username)",Chrome 95.0.4638.69,,,2021-12-14 17:39:44,2021-12-14 17:39:44,0.534s,PASSED
+"setText(findTestObject(""Object Repository/Microsite Prod/Page_Olay Holiday Program/input__mat-input-1""), Password)",Chrome 95.0.4638.69,,,2021-12-14 17:39:44,2021-12-14 17:39:45,0.516s,PASSED
+"click(findTestObject(""Object Repository/Microsite Prod/Page_Olay Holiday Program/button_SUBMIT""))",Chrome 95.0.4638.69,,,2021-12-14 17:39:45,2021-12-14 17:39:45,0.283s,PASSED
+"click(findTestObject(""Object Repository/Microsite Prod/Page_Olay Holiday Program/button_SUPPORT""))",Chrome 95.0.4638.69,,,2021-12-14 17:39:45,2021-12-14 17:39:46,1.557s,FAILED

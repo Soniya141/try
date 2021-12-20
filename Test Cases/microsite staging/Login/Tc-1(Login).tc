@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login with emailid and password</description>
+   <name>Tc-1(Login)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7cb1c6e9-f99b-4fc7-a481-f06984aea6be</testCaseGuid>
+</TestCaseEntity>

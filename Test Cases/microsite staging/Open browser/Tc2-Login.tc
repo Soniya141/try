@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login with blank credentials</description>
+   <name>Tc2-Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3b3356fb-f6ab-4209-ac03-cc5624845d6c</testCaseGuid>
+</TestCaseEntity>

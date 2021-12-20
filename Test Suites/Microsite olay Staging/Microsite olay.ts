@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Microsite olay</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>1</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>a04bbabb-5c71-497c-8e87-ec23008d81e3</testSuiteGuid>
+   <testCaseLink>
+      <guid>0b7921d5-c181-4123-9c62-d37c7a1d18c1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/microsite staging/Login/Tc-1(Login)</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>87142418-d4fa-44bd-9fe2-df18eed512e5</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/microsite staging/Login/Tc-2(Login)</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9abb7b2d-6607-4d33-8b7d-121987711e56</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/microsite staging/Login/Tc-3(Login)</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>905518c6-7622-4f2a-b767-b41c60b9cf4a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/microsite staging/Login/Tc-4(Login)</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>dc74b54d-c65e-42a7-ab09-246118b7c244</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/microsite staging/Registration/Tc-1(Registration)</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>6d0b05f6-5f4c-4387-8c01-f6222a70fb18</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/microsite staging/Registration/Tc-2(Registration)</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9257346a-d3eb-4323-b95a-3eb101dcf34f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/microsite staging/Registration/Tc-3(Registration)</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>b9a34411-4243-4bec-9f93-671d9a789938</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/microsite staging/Reset password/Tc-2(Reset password)</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c322ca18-5f68-498e-8a6a-77a74610a85d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/microsite staging/Reset password/Tc-1(Reset password)</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0fd833e9-2d09-441a-b3af-d34a7c261ab8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/microsite staging/Upload Receipt/Tc-1(Upload receipt)</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4c38ed7a-af69-4016-bbd4-389d92008cbd</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/microsite staging/Support/Tc-1(Support)</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>4c030d5c-bc24-4c33-aa7e-7240a21d8663</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/microsite staging/Support/TC-2(Support)</testCaseId>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>213f75bd-ee29-4d68-ae3d-e627a2b23516</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/microsite staging/FAQ/Tc-1</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>91852e81-9c4e-4ee9-8b28-9df9d0a0fd89</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6c42d7e4-3c87-4fd7-b3f5-786d376982a6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e74f3c83-4e8d-48be-accb-800375b07943</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>46aacb13-ff47-4103-b0e4-96344d3e0a37</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>837c824d-ab38-4813-9b1f-03de59366758</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>dfd7bc3e-87d8-4cb7-a8b6-eec8a56483a1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>826f9fd2-9a84-4333-8f3b-75daae2e6f48</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>510c4127-ba2a-4768-9cb7-7185dc147d94</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>18ab3934-68d0-46be-bdf6-da5a5825467a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>bb4880a7-3257-4c8d-b1d3-5ce124e2a3f1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>bed0ce15-700b-48b8-92b2-3dec242b97b1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7c1a3e42-9ab2-4a26-9bd1-c2452953f202</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>eedfaad4-7502-4f81-b545-6e9ee827e7e3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>6d2faa8b-27cb-48ec-9215-8431314966a3</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

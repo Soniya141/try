@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/micro staging/Page_Olay Holiday Program/div_Email",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027*\u0027])[2]/following::div[15]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027WELCOME\u0027])[1]/following::div[12]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20211217_142800/Microsite olay Staging/Microsite olay/20211217_142800/Object Repository/micro staging/Page_Olay Holiday Program/div_Email_neighbor.png"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Tc-1</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cd8cb77f-1179-4e30-9b57-189b80574638</testCaseGuid>
+   <variable>
+      <defaultValue>'How long do I have to submit my receipt?'</defaultValue>
+      <description></description>
+      <id>91852e81-9c4e-4ee9-8b28-9df9d0a0fd89</id>
+      <masked>false</masked>
+      <name>Q1</name>
+   </variable>
+   <variable>
+      <defaultValue>'All products must be purchased between 11/22/2021 and 12/31/2021. You have until 1/31/2022 at 11:59PM EST to upload your receipt.'</defaultValue>
+      <description></description>
+      <id>6c42d7e4-3c87-4fd7-b3f5-786d376982a6</id>
+      <masked>false</masked>
+      <name>A1</name>
+   </variable>
+   <variable>
+      <defaultValue>'What do I do if I am having trouble participating in the program?'</defaultValue>
+      <description></description>
+      <id>e74f3c83-4e8d-48be-accb-800375b07943</id>
+      <masked>false</masked>
+      <name>Q2</name>
+   </variable>
+   <variable>
+      <defaultValue>'You can submit any questions you may have about the promotion to our support box.'</defaultValue>
+      <description></description>
+      <id>46aacb13-ff47-4103-b0e4-96344d3e0a37</id>
+      <masked>false</masked>
+      <name>A2</name>
+   </variable>
+   <variable>
+      <defaultValue>'What are the participating products?'</defaultValue>
+      <description></description>
+      <id>837c824d-ab38-4813-9b1f-03de59366758</id>
+      <masked>false</masked>
+      <name>Q3</name>
+   </variable>
+   <variable>
+      <defaultValue>'Click here to see the full list of participating products.'</defaultValue>
+      <description></description>
+      <id>dfd7bc3e-87d8-4cb7-a8b6-eec8a56483a1</id>
+      <masked>false</masked>
+      <name>A3</name>
+   </variable>
+   <variable>
+      <defaultValue>'How many times can I submit the same valid receipt?'</defaultValue>
+      <description></description>
+      <id>826f9fd2-9a84-4333-8f3b-75daae2e6f48</id>
+      <masked>false</masked>
+      <name>Q4</name>
+   </variable>
+   <variable>
+      <defaultValue>'You can only submit a valid receipt once, receipts submitted more than once will be rejected.'</defaultValue>
+      <description></description>
+      <id>510c4127-ba2a-4768-9cb7-7185dc147d94</id>
+      <masked>false</masked>
+      <name>A4</name>
+   </variable>
+   <variable>
+      <defaultValue>'How many rewards can I get?'</defaultValue>
+      <description></description>
+      <id>18ab3934-68d0-46be-bdf6-da5a5825467a</id>
+      <masked>false</masked>
+      <name>Q5</name>
+   </variable>
+   <variable>
+      <defaultValue>'There is a limit of one reward per email address.'</defaultValue>
+      <description></description>
+      <id>bb4880a7-3257-4c8d-b1d3-5ce124e2a3f1</id>
+      <masked>false</masked>
+      <name>A5</name>
+   </variable>
+   <variable>
+      <defaultValue>'Do I have to purchase all $25 of participating products after discounts and coupons in one transaction?'</defaultValue>
+      <description></description>
+      <id>bed0ce15-700b-48b8-92b2-3dec242b97b1</id>
+      <masked>false</masked>
+      <name>Q6</name>
+   </variable>
+   <variable>
+      <defaultValue>'No, you can purchase $25 over more than one transaction. Make sure that all receipts are purchased between 11/22/2021> and &lt;12/31/2021 and, and uploaded by 1/31/2022 in order to qualify.'</defaultValue>
+      <description></description>
+      <id>7c1a3e42-9ab2-4a26-9bd1-c2452953f202</id>
+      <masked>false</masked>
+      <name>A6</name>
+   </variable>
+   <variable>
+      <defaultValue>'What do I do if I have additional questions?'</defaultValue>
+      <description></description>
+      <id>eedfaad4-7502-4f81-b545-6e9ee827e7e3</id>
+      <masked>false</masked>
+      <name>Q7</name>
+   </variable>
+   <variable>
+      <defaultValue>'Review the Terms and Conditions for the offer for additional details. If the Terms and Conditions have not answered your question, please email us via the support box.'</defaultValue>
+      <description></description>
+      <id>6d2faa8b-27cb-48ec-9215-8431314966a3</id>
+      <masked>false</masked>
+      <name>A7</name>
+   </variable>
+</TestCaseEntity>
