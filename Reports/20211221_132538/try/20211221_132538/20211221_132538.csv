@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+try,Chrome 95.0.4638.69,,,2021-12-21 13:25:47,2021-12-21 13:26:22,34.445s,PASSED
+,,,,,,,
+Test Cases/microsite staging/coming soon/tc-2,Chrome 95.0.4638.69,,,2021-12-21 13:25:48,2021-12-21 13:25:55,7.145s,PASSED
+"openBrowser("""")",Chrome 95.0.4638.69,,,2021-12-21 13:25:48,2021-12-21 13:25:48,0.743s,PASSED
+navigateToUrl(url),Chrome 95.0.4638.69,,,2021-12-21 13:25:48,2021-12-21 13:25:55,6.235s,PASSED
+,,,,,,,
+Test Cases/microsite staging/coming soon/tc-2,Chrome 95.0.4638.69,,,2021-12-21 13:25:55,2021-12-21 13:26:10,14.980s,PASSED
+"openBrowser("""")",Chrome 95.0.4638.69,,,2021-12-21 13:25:55,2021-12-21 13:25:55,0.428s,PASSED
+navigateToUrl(url),Chrome 95.0.4638.69,,,2021-12-21 13:25:55,2021-12-21 13:26:10,14.544s,PASSED
+,,,,,,,
+Test Cases/microsite staging/coming soon/tc-2,Chrome 95.0.4638.69,,,2021-12-21 13:26:10,2021-12-21 13:26:22,12.074s,PASSED
+"openBrowser("""")",Chrome 95.0.4638.69,,,2021-12-21 13:26:10,2021-12-21 13:26:10,0.423s,PASSED
+navigateToUrl(url),Chrome 95.0.4638.69,,,2021-12-21 13:26:10,2021-12-21 13:26:22,11.645s,PASSED

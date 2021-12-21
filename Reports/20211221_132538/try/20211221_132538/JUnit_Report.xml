@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="try" time="34.445" tests="3" failures="0" errors="0">
+   <testsuite name="try" tests="3" failures="0" errors="0" time="34.445" skipped="0" timestamp="2021-12-21 13:25:47" hostname="knoldus - knoldus-Latitude-3520" id="Test Suites/try">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/home/knoldus/Katalon Studio/try/Reports/20211221_132538/try/20211221_132538"/>
+         <property name="logFiles" value="/home/knoldus/Katalon Studio/try/Reports/20211221_132538/try/20211221_132538/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="knoldus - knoldus-Latitude-3520"/>
+         <property name="os" value="Linux 64bit"/>
+         <property name="katalonVersion" value="8.2.0.208"/>
+         <property name="browser" value="Chrome 95.0.4638.69"/>
+         <property name="hostAddress" value="127.0.1.1"/>
+         <property name="sessionId" value="565abe0cabc0f92b32e260cf61f67114"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Linux"/>
+      </properties>
+      <testcase name="Test Cases/microsite staging/coming soon/tc-2" time="7.145" classname="Test Cases/microsite staging/coming soon/tc-2" status="PASSED">
+         <system-out><![CDATA[2021-12-21 13:25:48 - [TEST_CASE][PASSED] - Test Cases/microsite staging/coming soon/tc-2: Test Cases/microsite staging/coming soon/tc-2
+
+2021-12-21 13:25:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-12-21 13:25:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-12-21 13:25:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-12-21 13:25:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-12-21 13:25:48 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://olayrebate.3tlstaging.com/home' successfully
+
+2021-12-21 13:25:55 - [MESSAGE][PASSED] - Navigate to 'https://olayrebate.3tlstaging.com/home' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/microsite staging/coming soon/tc-2" time="14.98" classname="Test Cases/microsite staging/coming soon/tc-2" status="PASSED">
+         <system-out><![CDATA[2021-12-21 13:25:55 - [TEST_CASE][PASSED] - Test Cases/microsite staging/coming soon/tc-2: Test Cases/microsite staging/coming soon/tc-2
+
+2021-12-21 13:25:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-12-21 13:25:55 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-12-21 13:25:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-12-21 13:25:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-12-21 13:25:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-12-21 13:25:55 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://olayrebate.3tlstaging.com/login' successfully
+
+2021-12-21 13:26:10 - [MESSAGE][PASSED] - Navigate to 'https://olayrebate.3tlstaging.com/login' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/microsite staging/coming soon/tc-2" time="12.074" classname="Test Cases/microsite staging/coming soon/tc-2" status="PASSED">
+         <system-out><![CDATA[2021-12-21 13:26:10 - [TEST_CASE][PASSED] - Test Cases/microsite staging/coming soon/tc-2: Test Cases/microsite staging/coming soon/tc-2
+
+2021-12-21 13:26:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-12-21 13:26:10 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2021-12-21 13:26:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-12-21 13:26:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-12-21 13:26:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-12-21 13:26:10 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://olayrebate.3tlstaging.com/registration' successfully
+
+2021-12-21 13:26:22 - [MESSAGE][PASSED] - Navigate to 'https://olayrebate.3tlstaging.com/registration' successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-12-21 13:25:47 - [TEST_SUITE][PASSED] - try: Test Cases/microsite staging/coming soon/tc-2]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -173,4 +173,25 @@
          <variableId>6d2faa8b-27cb-48ec-9215-8431314966a3</variableId>
       </variableLink>
    </testCaseLink>
+   <testCaseLink>
+      <guid>8de22993-e2e6-4cc4-bada-106d4027e252</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/microsite staging/coming soon/tc-1</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>a67b7889-5fb8-4683-a607-0041f56de085</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Data</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>a67b7889-5fb8-4683-a607-0041f56de085</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>url</value>
+         <variableId>27f304a8-a40c-4526-9db6-a6986322ff34</variableId>
+      </variableLink>
+   </testCaseLink>
 </TestSuiteEntity>

@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 //int currentTab = WebUI.getWindowIndex()
 WebUI.openBrowser('')
 WebUI.maximizeWindow()
-WebUI.navigateToUrl('https://olayrebate.3tlstaging.com/home')
+WebUI.navigateToUrl(url)
 WebUI.verifyTextPresent('Coming Soon!', true)
 WebUI.verifyTextPresent('Please check back again.', true)
 //WebUI.switchToWindowUrl('https://olayrebate.3tlstaging.com/login')

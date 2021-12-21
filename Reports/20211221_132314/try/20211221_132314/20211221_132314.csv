@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+try,Chrome 95.0.4638.69,,,2021-12-21 13:23:23,2021-12-21 13:23:27,3.044s,FAILED
+,,,,,,,
+Test Cases/microsite staging/coming soon/tc-2,Chrome 95.0.4638.69,,,2021-12-21 13:23:26,2021-12-21 13:23:27,0.521s,FAILED
+"openBrowser("""")",Chrome 95.0.4638.69,,,2021-12-21 13:23:26,2021-12-21 13:23:26,0.411s,PASSED
+navigateToUrl(url),Chrome 95.0.4638.69,,,2021-12-21 13:23:26,2021-12-21 13:23:27,0.096s,FAILED
